@@ -1,0 +1,103 @@
+section#donation-volunteer {
+  background-color: rgb(224, 146, 146);
+  .section-inner {
+    // background-color: rgba(0, 0, 0, 0.8);
+    .section-body {
+      .item {
+        position: relative;
+        padding: 24px 48px;
+        border-radius: $border_radius;
+        &:hover::after {
+          width: 100%;
+        }
+        &::after {
+          content: '';
+          display: block;
+          width: 0%;
+          height: 100%;
+          border-radius: $border_radius;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: $gray_bgcolor;
+          @include transition(width);
+          @media #{$tab_device} {
+            display: none;
+          }
+        }
+
+        .item-inner {
+          position: relative;
+          z-index: 1000;
+        }
+
+        .item-body {
+          padding: 24px 0px;
+          @include transition(color);
+        }
+        &#donation {
+          background-color: $neutral_color;
+          &::after {
+            background-color: $theme_color;
+          }
+          &:hover {
+            @media (min-width: '992px') {
+              .item-hdr {
+                .item-title {
+                  color: $hdr_color_light;
+                }
+              }
+              .item-body {
+                color: $txt_color_light;
+              }
+            }
+          }
+          .item-hdr {
+            .item-title {
+              color: $hdr_color_dark;
+              @include transition(color);
+            }
+          }
+          @media #{$mobile_device} {
+            margin-bottom: 30px;
+          }
+        }
+        &#volunteer {
+          background-color: $theme_color;
+          &::after {
+            background-color: $neutral_color;
+          }
+          &:hover {
+            @media (min-width: 992px) {
+              .item-hdr {
+                .item-title {
+                  color: $hdr_color_dark;
+                }
+              }
+              .item-body {
+                color: inherit;
+              }
+            }
+          }
+          .item-hdr {
+            .item-title {
+              color: $hdr_color_light;
+              @include transition(color);
+            }
+          }
+          .item-body {
+            color: $txt_color_light;
+          }
+          .item-ftr {
+            .item-link {
+              background-color: $btn_bgcolor_hover;
+              &:hover {
+                background-color: $theme_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

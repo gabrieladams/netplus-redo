@@ -1,0 +1,45 @@
+// site theme color
+$theme_color: #173565;
+$neutral_color: #ffffff;
+
+// site base fontsize
+$base_fontsize: 14px;
+
+// header colors
+$hdr_color_light: #ffffff;
+$hdr_color_dark: #000000;
+
+// site text color
+$txt_color: #555555;
+$txt_color_light: #dddddd;
+
+// button color
+$btn_color: #ffffff;
+$btn_bgcolor_hover: #274a82;
+
+// background color
+$gray_bgcolor: #ebebeb;
+
+// border radius
+$border_radius: 3px;
+
+// box shadow
+$box_shadow: 0px 6px 14px 0px rgba(221, 221, 221, 0.9);
+$box_shadow_hover: 0px 6px 14px 0px rgba(0, 0, 0, 0.3);
+
+// media queries
+$mobile_device: '(max-width: 767px)';
+$mobile_sm: '(max-width: 375px)';
+$mobile_md: '(max-width: 575px)';
+$mobile_lg: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$above_mobile_device: '(min-width: 768px)';
+
+$tab_device: '(max-width: 991px)';
+$tab: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$above_tab_device: '(min-width: 992px)';
+
+$md_device: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+
+$lg-device: '(min-width: 1200px)';
+
+// $sm_device: '(max-width: 767px)';

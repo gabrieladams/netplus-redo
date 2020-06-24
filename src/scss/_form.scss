@@ -1,0 +1,15 @@
+section#contact {
+  form {
+    .form-control {
+      color: $txt_color;
+      font-size: inherit;
+      padding: 24px 12px;
+      border: none;
+      border-radius: $border_radius;
+      background-color: $gray_bgcolor;
+      &:focus {
+        box-shadow: initial;
+      }
+    }
+  }
+}

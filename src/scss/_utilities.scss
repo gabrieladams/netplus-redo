@@ -1,0 +1,34 @@
+// buttons and links
+.button {
+  border: none;
+  border-radius: $border-radius;
+  color: $btn-color;
+  background-color: $theme_color;
+  @include transition(background-color);
+  &:hover {
+    background-color: $btn_bgcolor_hover;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.button-lg {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.button-sm {
+  padding: 9px 18px;
+  font-size: 12px;
+}
+
+// section padding
+.section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  @media #{$mobile_device} {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

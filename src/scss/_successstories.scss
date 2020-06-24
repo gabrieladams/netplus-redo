@@ -1,0 +1,28 @@
+section#success-stories {
+  .section-hdr {
+    margin-bottom: 72px;
+    .section-title {
+      color: $hdr_color_dark;
+      margin-bottom: 24px;
+    }
+  }
+  .section-body {
+    .item {
+      margin-bottom: 30px;
+      .item-hdr {
+        .item-img {
+          height: 168px;
+          background-color: rgb(224, 146, 146);
+          border-radius: $border_radius;
+        }
+      }
+      .item-body {
+        padding: 24px 0px;
+        .item-title {
+          color: $hdr_color_dark;
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}

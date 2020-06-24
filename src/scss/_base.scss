@@ -1,0 +1,22 @@
+body {
+  font-size: $base_fontsize;
+  color: $txt-color;
+  line-height: 24px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+a {
+  display: inline-block;
+  color: $btn_color;
+  &:hover {
+    color: $btn-color;
+    text-decoration: none;
+  }
+  &:active {
+    color: $btn-color;
+    text-decoration: none;
+  }
+}

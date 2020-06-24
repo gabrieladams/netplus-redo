@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Volunteers from './pages/Volunteers';
+import PartnershipCollaboration from './pages/PartnershipCollaboration';
+import Donation from './pages/Donation';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/volunteers' component={Volunteers} />
+        <Route
+          path='/partnership-and-collaboration'
+          component={PartnershipCollaboration}
+        />
+        <Route path='/donation' component={Donation} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

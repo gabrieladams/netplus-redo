@@ -1,0 +1,31 @@
+// variables
+@import 'variables';
+//mixins
+@import 'mixins';
+// base
+@import 'base';
+//utilities
+@import 'utilities';
+
+// navbar
+@import 'navbar';
+// hero
+@import 'hero';
+
+//home page
+@import 'cofounder';
+@import 'whatwedo';
+@import 'motive';
+@import 'donationvolunteer';
+@import 'successstories';
+
+// about page
+@import 'introduction';
+@import 'team';
+@import 'aspiration';
+
+//contact page
+@import 'form';
+
+//footer
+@import 'footer';
