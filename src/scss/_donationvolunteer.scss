@@ -1,7 +1,8 @@
 section#donation-volunteer {
-  background-color: rgb(224, 146, 146);
+  @include background(url(../assets/img/community-project.jpg));
   .section-inner {
-    // background-color: rgba(0, 0, 0, 0.8);
+    padding: 120px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
     .section-body {
       .item {
         position: relative;

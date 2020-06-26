@@ -16,7 +16,7 @@ function CoFounder() {
               <div className='section-content-inner'>
                 <div className='co-founder-details'>
                   <p>
-                    Cheryl Okumu is the co-founder and CEO of Net Plus, she
+                    Cheryl Okumu is the co-founder and CEO of NetPlus Kenya, she
                     oversees the day to day running of the organization.
                   </p>
                   <p>

@@ -22,7 +22,6 @@ section#what-we-do {
       .item-hdr {
         .item-img {
           height: 168px;
-          background-color: rgb(224, 146, 146);
           border-radius: $border_radius;
         }
       }
@@ -36,6 +35,42 @@ section#what-we-do {
 
       .item-ftr {
         padding: 0px 12px;
+      }
+      &.item-1 {
+        .item-img {
+          @include background(url(../assets/img/event.jpg));
+        }
+      }
+
+      &.item-2 {
+        .item-img {
+          @include background(url(../assets/img/community-project.jpg));
+        }
+      }
+
+      &.item-3 {
+        .item-img {
+          @include background(url(../assets/img/mentorship-programme.jpg));
+        }
+      }
+
+      &.item-4 {
+        .item-img {
+          @include background(url(../assets/img/community-project.jpg));
+        }
+      }
+      &.item-5 {
+        .item-img {
+          @include background(
+            url(../assets/img/talent-search-and-nurturing.jpg)
+          );
+        }
+      }
+
+      &.item-6 {
+        .item-img {
+          @include background(url(../assets/img/event.jpg));
+        }
       }
     }
   }

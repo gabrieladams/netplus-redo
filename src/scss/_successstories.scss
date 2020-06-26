@@ -23,6 +23,25 @@ section#success-stories {
           margin-bottom: 12px;
         }
       }
+      &.item-1 {
+        .item-img {
+          @include background(
+            url(../assets/img/kawangware-initiative-project.jpg)
+          );
+        }
+      }
+      &.item-2 {
+        .item-img {
+          @include background(url(../assets/img/mentorship-programme.jpg));
+        }
+      }
+      &.item-3 {
+        .item-img {
+          @include background(
+            url(../assets/img/talent-search-and-nurturing.jpg)
+          );
+        }
+      }
     }
   }
 }

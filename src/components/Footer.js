@@ -13,10 +13,10 @@ function Footer() {
                 <h6 className='item-title mb-4'>Summary</h6>
                 <div className='item-body'>
                   <p>
-                    Net Plus is an agency that purposes to provide a platform
-                    for young people to showcase their talents, skills and
-                    connect them with persons who can support their vision at
-                    whatever capacity.
+                    NetPlus Kenya is an agency that purposes to provide a
+                    platform for young people to showcase their talents, skills
+                    and connect them with persons who can support their vision
+                    at whatever capacity.
                   </p>
                 </div>
               </div>

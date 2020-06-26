@@ -20,7 +20,7 @@ function SuccessStories() {
           <div className='row'>
             {/* item 1 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-1'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -44,7 +44,7 @@ function SuccessStories() {
 
             {/* item 2 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-2'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -68,7 +68,7 @@ function SuccessStories() {
 
             {/* item 3 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-3'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>

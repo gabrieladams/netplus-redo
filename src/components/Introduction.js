@@ -17,11 +17,11 @@ function Introducion() {
           <div className='row'>
             <div className='col-md-6'>
               <p className='mb-md-0'>
-                Net Plus is a registered empowerment agency founded by Cheryl
-                Okumu and Margaret Lidoro working with a team of fellow young
-                people from various career fields brought together by the vision
-                projects we have whether structural establishments or new trend
-                movements in our respective fields’.
+                NetPlus Kenya is a registered empowerment agency founded by
+                Cheryl Okumu and Margaret Lidoro working with a team of fellow
+                young people from various career fields brought together by the
+                vision projects we have whether structural establishments or new
+                trend movements in our respective fields’.
               </p>
             </div>
             <div className='col-md-6'>

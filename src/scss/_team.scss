@@ -40,6 +40,101 @@ section#team {
       .item-ftr {
         padding: 0px 12px;
       }
+
+      &.member-1 {
+        .member-img {
+          @include background(url(../assets/img/Cheryl-profile.jpg));
+          background-position: top;
+        }
+      }
+
+      &.member-2 {
+        .member-img {
+          @include background(url(../assets/img/Wambida-profile.jpg));
+          background-position: top;
+        }
+      }
+
+      &.member-3 {
+        .member-img {
+          @include background(url(../assets/img/Ayuma-profile.jpg));
+        }
+      }
+
+      &.member-4 {
+        .member-img {
+          @include background(url(../assets/img/Jijo-profile.jpg));
+          background-position: top;
+        }
+      }
+
+      &.member-5 {
+        .member-img {
+          @include background(url(../assets/img/Joan-profile.jpg));
+          // background-position: top;
+        }
+      }
+    }
+
+    .modal {
+      .modal-content {
+        border-radius: $border_radius;
+        .modal-header {
+          display: initial;
+          padding-bottom: 12px;
+          border-bottom: none;
+          border-top-left-radius: $border_radius;
+          border-top-right-radius: $border_radius;
+          .item-img {
+            height: 168px;
+            // background-color: #f1f1f1;
+            border-radius: $border_radius;
+          }
+          .item-title {
+            margin-bottom: 12px;
+            color: $hdr_color_dark;
+          }
+          .item-details {
+            color: inherit;
+            font-size: inherit;
+          }
+        }
+        .modal-body {
+          padding-top: 12px;
+          padding-bottom: 12px;
+        }
+        .modal-footer {
+          padding-top: 12px;
+          border-top: none;
+          border-bottom-right-radius: $border_radius;
+          border-bottom-left-radius: $border_radius;
+        }
+      }
+
+      .member-1-img {
+        @include background(url(../assets/img/Cheryl-profile.jpg));
+        background-position: top;
+      }
+
+      .member-2-img {
+        @include background(url(../assets/img/Wambida-profile.jpg));
+        background-position: top;
+      }
+
+      .member-3-img {
+        @include background(url(../assets/img/Ayuma-profile.jpg));
+        background-position: top;
+      }
+
+      .member-4-img {
+        @include background(url(../assets/img/Jijo-profile.jpg));
+        background-position: top;
+      }
+
+      .member-5-img {
+        @include background(url(../assets/img/Joan-profile.jpg));
+        background-position: top;
+      }
     }
   }
 }

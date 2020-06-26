@@ -1,14 +1,14 @@
 #hero {
   height: calc(100% - 53px);
-  background-color: rgb(224, 146, 146);
+  @include background(url(../assets/img/hero.jpg));
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
   .hero-content {
     .hero-content-inner {
       .hero-hdr {
         margin-bottom: 12px;
         color: $hdr_color_light;
-        // @media #{$mobile_sm} {
-        //   font-size: 40px !important;
-        // }
       }
       .hero-subtxt {
         margin-bottom: 24px;

@@ -10,8 +10,8 @@ function WhatWeDo() {
             <div className='col-md-8 col-lg-6'>
               <h2 className='section-title'>What we do</h2>
               <p className='section-subtxt mb-0'>
-                Netplus engages in a number of activities that help it attain
-                its goals and objectives.
+                NetPlus Kenya engages in a number of activities that help it
+                attain its goals and objectives.
               </p>
             </div>
           </div>
@@ -20,7 +20,7 @@ function WhatWeDo() {
           <div className='row'>
             {/* item 1 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-1'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -42,7 +42,7 @@ function WhatWeDo() {
 
             {/* item 2 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-2'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -64,7 +64,7 @@ function WhatWeDo() {
 
             {/* item 3 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-3'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -86,7 +86,7 @@ function WhatWeDo() {
 
             {/* item 4 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-4'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -108,7 +108,7 @@ function WhatWeDo() {
 
             {/* item 5 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-5'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>
@@ -130,7 +130,7 @@ function WhatWeDo() {
 
             {/* item 6 */}
             <div className='col-md-6 col-lg-4'>
-              <div className='item'>
+              <div className='item item-6'>
                 <div className='item-hdr'>
                   <div className='item-img'></div>
                 </div>

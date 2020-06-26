@@ -4,17 +4,18 @@ section#co-founder {
     height: 100%;
     .img {
       border-radius: $border_radius;
-      background-color: rgb(224, 146, 146);
+      @include background(url(../assets/img/co-founder.jpg));
+      background-position: top;
     }
     &::after {
       content: '';
       display: block;
       width: 100%;
       height: 100%;
-      border-radius: $border_radius;
       position: absolute;
-      top: 24px;
-      left: 24px;
+      top: 48px;
+      left: 48px;
+      border-radius: $border_radius;
       background-color: $gray_bgcolor;
       z-index: -1;
       @media #{$mobile_device} {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@500&display=swap');
+
 // site theme color
 $theme_color: #173565;
 $neutral_color: #ffffff;
@@ -5,13 +7,19 @@ $neutral_color: #ffffff;
 // site base fontsize
 $base_fontsize: 14px;
 
+// site text color
+$txt_color: #555555;
+$txt_color_light: #dddddd;
+
+// site primary font family
+$pri_font: 'Noto Sans JP', sans-serif;
+
 // header colors
 $hdr_color_light: #ffffff;
 $hdr_color_dark: #000000;
 
-// site text color
-$txt_color: #555555;
-$txt_color_light: #dddddd;
+//secondary font family
+$sec_font: 'Noto Serif JP', serif;
 
 // button color
 $btn_color: #ffffff;
@@ -25,6 +33,7 @@ $border_radius: 3px;
 
 // box shadow
 $box_shadow: 0px 6px 14px 0px rgba(221, 221, 221, 0.9);
+// box shadow hover
 $box_shadow_hover: 0px 6px 14px 0px rgba(0, 0, 0, 0.3);
 
 // media queries
