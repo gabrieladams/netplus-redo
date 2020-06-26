@@ -29,7 +29,7 @@ function Team() {
                 <div className='item-body'>
                   <h6 className='item-title member-name'>Cheryl Okumu</h6>
                   <h6 className='item-details member-position mb-0'>
-                    Co-founder
+                    Co-founder &amp; C.E.O
                   </h6>
                 </div>
                 <div className='item-ftr'>
@@ -63,7 +63,7 @@ function Team() {
                             Cheryl Okumu
                           </h6>
                           <h6 className='item-details member-position text-center mb-0'>
-                            Co-founder
+                            Co-founder &amp; C.E.O
                           </h6>
                         </div>
                       </div>
@@ -130,7 +130,9 @@ function Team() {
                   <h6 className='item-title member-name'>
                     Wambida Max Ochieng
                   </h6>
-                  <h6 className='item-details member-position mb-0'>Member</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Logistics &amp; Operations
+                  </h6>
                 </div>
                 <div className='item-ftr'>
                   <button
@@ -163,7 +165,7 @@ function Team() {
                             Wambida Max Ochieng
                           </h6>
                           <h6 className='item-details member-position text-center mb-0'>
-                            Member
+                            Logistics &amp; Operations
                           </h6>
                         </div>
                       </div>
@@ -219,8 +221,10 @@ function Team() {
                   <div className='item-img member-img'></div>
                 </div>
                 <div className='item-body'>
-                  <h6 className='item-title member-name'> Ayuma Maina</h6>
-                  <h6 className='item-details member-position mb-0'>Member</h6>
+                  <h6 className='item-title member-name'>B. Ayuma Maina</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Social Media &amp; PR
+                  </h6>
                 </div>
                 <div className='item-ftr'>
                   <button
@@ -250,10 +254,10 @@ function Team() {
                         <div className='col-md-4 px-0'>
                           <div className='item-img member-img member-3-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
-                            Ayuma Maina
+                            B. Ayuma Maina
                           </h6>
                           <h6 className='item-details member-position text-center mb-0'>
-                            Member
+                            Social Media &amp; PR
                           </h6>
                         </div>
                       </div>
@@ -305,7 +309,9 @@ function Team() {
                 </div>
                 <div className='item-body'>
                   <h6 className='item-title member-name'>Jijo </h6>
-                  <h6 className='item-details member-position mb-0'>Member</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Graphic &amp; Product Designer
+                  </h6>
                 </div>
                 <div className='item-ftr'>
                   <button
@@ -382,8 +388,10 @@ function Team() {
                   <div className='item-img member-img member-5-img'></div>
                 </div>
                 <div className='item-body'>
-                  <h6 className='item-title member-name'>Joan Ongoro </h6>
-                  <h6 className='item-details member-position mb-0'>Member</h6>
+                  <h6 className='item-title member-name'>Joan Ongoro</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Archivist
+                  </h6>
                 </div>
                 <div className='item-ftr'>
                   <button
@@ -416,7 +424,7 @@ function Team() {
                             Joan Ongoro
                           </h6>
                           <h6 className='item-details member-position text-center mb-0'>
-                            Member
+                            Archivist
                           </h6>
                         </div>
                       </div>
@@ -449,7 +457,7 @@ function Team() {
             </div>
 
             {/* item 6 */}
-            <div className='col-md-6 col-lg-4'>
+            {/* <div className='col-md-6 col-lg-4'>
               <div className='item member member-6'>
                 <div className='item-hdr'>
                   <div className='item-img member-img'></div>
@@ -464,7 +472,7 @@ function Team() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
