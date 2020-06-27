@@ -10,8 +10,8 @@ function WhatWeDo() {
             <div className='col-md-8 col-lg-6'>
               <h2 className='section-title'>What we do</h2>
               <p className='section-subtxt mb-0'>
-                NetPlus Kenya engages in a number of activities that help it
-                attain its goals and objectives.
+                NetPlus engages in a number of activities that help it attain
+                its goals and objectives.
               </p>
             </div>
           </div>

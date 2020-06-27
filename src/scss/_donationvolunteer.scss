@@ -1,8 +1,9 @@
 section#donation-volunteer {
-  @include background(url(../assets/img/community-project.jpg));
+  @include background(url(../assets/img/donation-volunteer-hero.jpg));
+  // background-position: top;
   .section-inner {
     padding: 120px 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     .section-body {
       .item {
         position: relative;

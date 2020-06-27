@@ -17,6 +17,7 @@ section#co-founder {
       left: 48px;
       border-radius: $border_radius;
       background-color: $gray_bgcolor;
+      filter: blur(6px);
       z-index: -1;
       @media #{$mobile_device} {
         display: none;

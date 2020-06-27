@@ -38,25 +38,25 @@ section#what-we-do {
       }
       &.item-1 {
         .item-img {
-          @include background(url(../assets/img/event.jpg));
+          @include background(url(../assets/img/events.jpg));
         }
       }
 
       &.item-2 {
         .item-img {
-          @include background(url(../assets/img/community-project.jpg));
+          @include background(url(../assets/img/community-projects.jpg));
         }
       }
 
       &.item-3 {
         .item-img {
-          @include background(url(../assets/img/mentorship-programme.jpg));
+          @include background(url(../assets/img/mentorship-programmes.jpg));
         }
       }
 
       &.item-4 {
         .item-img {
-          @include background(url(../assets/img/community-project.jpg));
+          @include background(url(../assets/img/community-services.jpg));
         }
       }
       &.item-5 {
@@ -64,12 +64,15 @@ section#what-we-do {
           @include background(
             url(../assets/img/talent-search-and-nurturing.jpg)
           );
+          background-position: top;
         }
       }
 
       &.item-6 {
         .item-img {
-          @include background(url(../assets/img/event.jpg));
+          @include background(
+            url(../assets/img/community-capacity-building-and-emp.jpg)
+          );
         }
       }
     }

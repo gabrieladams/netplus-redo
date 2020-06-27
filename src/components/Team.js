@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Team() {
   return (
@@ -191,7 +190,7 @@ function Team() {
                           Home orphanage for infants in Nyeri.
                         </p>
                         <p>
-                          Currently he is a delighted member of the Netplus crew
+                          He currently is a delighted member of the Netplus crew
                           serving in the Logistics and Operations Department.
                         </p>
                         <p className='mb-0'>
@@ -419,7 +418,7 @@ function Team() {
                     <div className='modal-header pt-4 px-5'>
                       <div className='row justify-content-md-center'>
                         <div className='col-md-4 px-0'>
-                          <div className='item-img member-img member-4-img mb-4'></div>
+                          <div className='item-img member-img member-5-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             Joan Ongoro
                           </h6>

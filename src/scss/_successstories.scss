@@ -12,7 +12,6 @@ section#success-stories {
       .item-hdr {
         .item-img {
           height: 168px;
-          background-color: rgb(224, 146, 146);
           border-radius: $border_radius;
         }
       }
@@ -32,15 +31,74 @@ section#success-stories {
       }
       &.item-2 {
         .item-img {
-          @include background(url(../assets/img/mentorship-programme.jpg));
+          @include background(url(../assets/img/mentorship-programmes.jpg));
         }
       }
       &.item-3 {
         .item-img {
           @include background(
-            url(../assets/img/talent-search-and-nurturing.jpg)
+            url(../assets/img/art-performance-and-talent-showcase.jpg)
           );
         }
+      }
+    }
+    .modal {
+      .modal-content {
+        border-radius: $border_radius;
+        .modal-header {
+          display: initial;
+          padding-bottom: 12px;
+          border-bottom: none;
+          border-top-left-radius: $border_radius;
+          border-top-right-radius: $border_radius;
+          .item-img {
+            height: 40vh;
+            border-radius: $border_radius;
+          }
+        }
+        .modal-body {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          .item-title {
+            margin-bottom: 12px;
+            color: $hdr_color_dark;
+          }
+          .item-details {
+            color: inherit;
+            font-size: inherit;
+          }
+          ul {
+            margin-bottom: 12px;
+            li {
+              padding-top: 6px;
+              padding-bottom: 6px;
+            }
+          }
+        }
+        .modal-footer {
+          padding-top: 12px;
+          border-top: none;
+          border-bottom-right-radius: $border_radius;
+          border-bottom-left-radius: $border_radius;
+        }
+      }
+
+      .item-1-img {
+        @include background(
+          url(../assets/img/kawangware-initiative-project.jpg)
+        );
+        background-position: top;
+      }
+
+      .item-2-img {
+        @include background(url(../assets/img/mentorship-programmes.jpg));
+        background-position: top;
+      }
+
+      .item-3-img {
+        @include background(
+          url(../assets/img/art-performance-and-talent-showcase.jpg)
+        );
       }
     }
   }
