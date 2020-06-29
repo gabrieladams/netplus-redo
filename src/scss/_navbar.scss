@@ -24,6 +24,9 @@ nav.navbar-light {
         &:active {
           color: inherit;
         }
+        @media #{$tab_device} {
+          padding: 8px 12px;
+        }
       }
       .active {
         color: inherit;

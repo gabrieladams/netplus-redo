@@ -1,8 +1,7 @@
 #hero {
-  height: calc(100% - 53px);
   @include background(url(../assets/img/hero.jpg));
   .hero-overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: $overlay_bgcolor;
   }
   .hero-content {
     .hero-content-inner {

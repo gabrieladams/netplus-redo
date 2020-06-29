@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Hero() {
-  const nav = document.getElementsByClassName('navbar');
   const location = useLocation();
   const route = location.pathname;
 
@@ -25,10 +24,11 @@ function Hero() {
       ''
     );
 
-  console.log(nav);
-
   return (
-    <div id='hero'>
+    <div
+      style={route === '/' ? { height: '100vh' } : { height: '60vh' }}
+      id='hero'
+    >
       <div className='hero-overlay h-100'>
         <div className='container h-100'>
           <div className='hero-content h-100 d-flex align-items-center'>
@@ -78,9 +78,3 @@ function Hero() {
 }
 
 export default Hero;
-
-// style={
-//   document.querySelector('nav .navbar-collapse').classList.contain('show')
-//     ? { height: calc(100 % -232.5) }
-//     : { height: calc(100 % -53) }
-// }

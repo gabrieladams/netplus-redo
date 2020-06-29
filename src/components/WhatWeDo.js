@@ -27,16 +27,18 @@ function WhatWeDo() {
                 <div className='item-body'>
                   <h6 className='item-title'>Events</h6>
                   <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
+                    We regularly hold events so as to provide a platform for
+                    people to showcase their skills and talent and also
+                    socialize and connect with new faces. The Money raised from
+                    the events is used to fund our community projects and other
+                    activities.
                   </p>
                 </div>
-                <div className='item-ftr'>
+                {/* <div className='item-ftr'>
                   <Link className='item-link button button-sm' to='/'>
                     Learn More
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -49,16 +51,20 @@ function WhatWeDo() {
                 <div className='item-body'>
                   <h6 className='item-title'>Community Projects</h6>
                   <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
+                    we believe in giving back to the community as a way of
+                    showing gratitude for all good things we got from our
+                    communities. To show our gratitude we carry out community
+                    projects. We go to the less fortunate communities and bond
+                    with the people, give words of encouragement and hope and
+                    share what we have with the people. Its always a wonderful
+                    experience.
                   </p>
                 </div>
-                <div className='item-ftr'>
+                {/* <div className='item-ftr'>
                   <Link className='item-link button button-sm' to='/'>
                     Learn More
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -71,16 +77,18 @@ function WhatWeDo() {
                 <div className='item-body'>
                   <h6 className='item-title'>Mentorship Programmes</h6>
                   <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
+                    Mentorship Programmes are held mostly with the youth so as
+                    to provide guidance on social, physical, economical and
+                    spiritual aspects of life. We do believe that having people
+                    that are woke in all aspects of life is key to having a
+                    better society.
                   </p>
                 </div>
-                <div className='item-ftr'>
+                {/* <div className='item-ftr'>
                   <Link className='item-link button button-sm' to='/'>
                     Learn More
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 

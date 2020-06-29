@@ -4,6 +4,12 @@
 $theme_color: #173565;
 $neutral_color: #ffffff;
 
+// site primary font family
+$pri_font: 'Noto Sans JP', sans-serif;
+
+//site secondary font family
+$sec_font: 'Noto Serif JP', serif;
+
 // site base fontsize
 $base_fontsize: 14px;
 
@@ -11,22 +17,20 @@ $base_fontsize: 14px;
 $txt_color: #555555;
 $txt_color_light: #dddddd;
 
-// site primary font family
-$pri_font: 'Noto Sans JP', sans-serif;
-
 // header colors
 $hdr_color_light: #ffffff;
 $hdr_color_dark: #000000;
 
-//secondary font family
-$sec_font: 'Noto Serif JP', serif;
-
 // button color
 $btn_color: #ffffff;
+// button color hover
 $btn_bgcolor_hover: #274a82;
 
 // background color
 $gray_bgcolor: #ebebeb;
+
+// over background color
+$overlay_bgcolor: rgba(0, 0, 0, 0.65);
 
 // border radius
 $border_radius: 3px;
@@ -50,5 +54,3 @@ $above_tab_device: '(min-width: 992px)';
 $md_device: 'only screen and (min-width: 992px) and (max-width: 1199px)';
 
 $lg-device: '(min-width: 1200px)';
-
-// $sm_device: '(max-width: 767px)';
