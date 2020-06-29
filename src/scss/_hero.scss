@@ -8,6 +8,9 @@
       .hero-hdr {
         margin-bottom: 12px;
         color: $hdr_color_light;
+        // @media #{$mobile_sm} {
+        //   font-size: 36px;
+        // }
       }
       .hero-subtxt {
         margin-bottom: 24px;

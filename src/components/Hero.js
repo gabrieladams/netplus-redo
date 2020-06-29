@@ -34,13 +34,20 @@ function Hero() {
           <div className='hero-content h-100 d-flex align-items-center'>
             <div className='hero-content-inner'>
               <div className='row'>
-                <div className='col-md-8'>
+                <div className='col-md-10 col-lg-8'>
                   <h1
-                    style={
-                      route === '/'
-                        ? { fontSize: '48px' }
-                        : { fontSize: '36px' }
-                    }
+                    style={(function () {
+                      const viewPortWidth = window.innerWidth;
+                      if (route === '/') {
+                        if (viewPortWidth >= 576) {
+                          return { fontSize: '48px' };
+                        } else {
+                          return { fontSize: '36px' };
+                        }
+                      } else {
+                        return { fontSize: '36px' };
+                      }
+                    })()}
                     className='hero-hdr'
                   >
                     {heroHdr}
@@ -76,5 +83,22 @@ function Hero() {
     </div>
   );
 }
+
+// function setHeroHdrFs() {
+//   const viewPortWidth = window.innerWidth;
+//   if (route === '/') {
+//     if (viewPortWidth > 768) {
+//       return { fontSize: '48px' };
+//     } else {
+//       return { fontSize: '36px' };
+//     }
+//   }
+// }
+
+// style={
+//   route === '/'
+//     ? { fontSize: '6vmin' }
+//     : { fontSize: '5vmin' }
+// }
 
 export default Hero;
