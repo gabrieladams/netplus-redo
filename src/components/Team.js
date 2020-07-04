@@ -18,9 +18,9 @@ function Team() {
           </div>
         </div>
         <div className='section-body'>
-          <div className='row'>
+          <div className='row justify-content-sm-center'>
             {/* item 1 */}
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-sm-9 col-md-6 col-lg-4'>
               <div className='item member member-1'>
                 <div className='item-hdr'>
                   <div className='item-img member-img member-1'></div>
@@ -42,6 +42,8 @@ function Team() {
                   </button>
                 </div>
               </div>
+
+              {/* item 1 modal */}
               <div
                 className='modal fade'
                 id='Cheryl-Okumu-profile'
@@ -54,9 +56,9 @@ function Team() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='row justify-content-md-center'>
-                        <div className='col-md-4 px-0'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
                           <div className='item-img member-img member-1-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             Cheryl Okumu
@@ -67,7 +69,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <div className='modal-body px-5'>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='member-profile'>
                         <p>
                           Cheryl Okumu is the co-founder and CEO of Net Plus,
@@ -105,7 +107,7 @@ function Team() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -120,7 +122,7 @@ function Team() {
             </div>
 
             {/* item 2 */}
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-sm-9 col-md-6 col-lg-4'>
               <div className='item member member-2'>
                 <div className='item-hdr'>
                   <div className='item-img member-img'></div>
@@ -144,6 +146,8 @@ function Team() {
                   </button>
                 </div>
               </div>
+
+              {/* item 2 modal */}
               <div
                 className='modal fade'
                 id='Wambida-profile'
@@ -156,9 +160,9 @@ function Team() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='row justify-content-md-center'>
-                        <div className='col-md-4 px-0'>
+                    <div className='modal-header pt-4 pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
                           <div className='item-img member-img member-2-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             Wambida Max Ochieng
@@ -169,7 +173,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <div className='modal-body px-5'>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='member-profile'>
                         <p>
                           Wambida is a naturally talented and versatile leader,
@@ -199,7 +203,7 @@ function Team() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -214,7 +218,7 @@ function Team() {
             </div>
 
             {/* item 3 */}
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-sm-9 col-md-6 col-lg-4'>
               <div className='item member member-3'>
                 <div className='item-hdr'>
                   <div className='item-img member-img'></div>
@@ -236,6 +240,8 @@ function Team() {
                   </button>
                 </div>
               </div>
+
+              {/* item 3 modal */}
               <div
                 className='modal fade'
                 id='Ayuma-Maina-profile'
@@ -248,9 +254,9 @@ function Team() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='row justify-content-md-center'>
-                        <div className='col-md-4 px-0'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
                           <div className='item-img member-img member-3-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             B. Ayuma Maina
@@ -261,7 +267,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <div className='modal-body px-5'>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='member-profile'>
                         <p>
                           Meet Ayuma Maina a fun, loving, and extroverted soul
@@ -286,7 +292,7 @@ function Team() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -301,7 +307,7 @@ function Team() {
             </div>
 
             {/* item 4 */}
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-sm-9 col-md-6 col-lg-4'>
               <div className='item member member-4'>
                 <div className='item-hdr'>
                   <div className='item-img member-img'></div>
@@ -323,6 +329,8 @@ function Team() {
                   </button>
                 </div>
               </div>
+
+              {/* item 4 modal */}
               <div
                 className='modal fade'
                 id='Jijo-profile'
@@ -335,9 +343,9 @@ function Team() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='row justify-content-md-center'>
-                        <div className='col-md-4 px-0'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
                           <div className='item-img member-img member-4-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             Jijo
@@ -348,7 +356,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <div className='modal-body px-5'>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='member-profile'>
                         <p>
                           Jijo is a graphic and product designer at
@@ -366,7 +374,7 @@ function Team() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -381,7 +389,7 @@ function Team() {
             </div>
 
             {/* item 5 */}
-            <div className='col-md-6 col-lg-4'>
+            <div className='col-sm-9 col-md-6 col-lg-4'>
               <div className='item member member-5'>
                 <div className='item-hdr'>
                   <div className='item-img member-img member-5-img'></div>
@@ -403,6 +411,8 @@ function Team() {
                   </button>
                 </div>
               </div>
+
+              {/* item 5 */}
               <div
                 className='modal fade'
                 id='Joan-Ongoro-profile'
@@ -415,9 +425,9 @@ function Team() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='row justify-content-md-center'>
-                        <div className='col-md-4 px-0'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
                           <div className='item-img member-img member-5-img mb-4'></div>
                           <h6 className='item-title member-name text-center'>
                             Joan Ongoro
@@ -428,7 +438,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <div className='modal-body px-5'>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='member-profile'>
                         <p>Joanne Ongoro is a graduate civil engineer.</p>
                         <p>
@@ -441,7 +451,7 @@ function Team() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -454,24 +464,6 @@ function Team() {
                 </div>
               </div>
             </div>
-
-            {/* item 6 */}
-            {/* <div className='col-md-6 col-lg-4'>
-              <div className='item member member-6'>
-                <div className='item-hdr'>
-                  <div className='item-img member-img'></div>
-                </div>
-                <div className='item-body'>
-                  <h6 className='item-title member-name'>Jane Doe</h6>
-                  <h6 className='item-details member-position mb-0'>Member</h6>
-                </div>
-                <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Read Profile
-                  </Link>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

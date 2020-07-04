@@ -1,18 +1,23 @@
 footer {
   color: $txt_color_light;
+  font-size: 12px;
   padding: 108px 0px;
   background-color: $theme_color;
-  .upper-section {
-    padding-bottom: 48px;
-    border-bottom: 0.1px solid #fff;
-  }
-  .lower-section {
-    padding-top: 48px;
-  }
   .item {
     .item-title {
       color: $hdr_color_light;
-      //   margin-bottom: 24px;
     }
+    &.item-2 {
+      a {
+        color: $txt_color_light;
+        @include transition(color);
+        &:hover {
+          color: $neutral_color;
+        }
+      }
+    }
+  }
+  .mb-12 {
+    margin-bottom: 12px;
   }
 }

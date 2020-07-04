@@ -5,8 +5,8 @@ function CoFounder() {
   return (
     <section id='co-founder' className='section'>
       <div className='container'>
-        <div className='row justify-content-lg-center'>
-          <div className='col-md-6 col-lg-4'>
+        <div className='row justify-content-xl-center'>
+          <div className='col-md-6 col-xl-4'>
             <div className='co-founder-img'>
               <div className='img h-100'></div>
             </div>
@@ -26,7 +26,7 @@ function CoFounder() {
                   </p>
                 </div>
                 <Link className='button button-lg' to='/about'>
-                  Learn More
+                  About The Agency
                 </Link>
               </div>
             </div>

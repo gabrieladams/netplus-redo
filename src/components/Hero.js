@@ -26,7 +26,7 @@ function Hero() {
 
   return (
     <div
-      style={route === '/' ? { height: '100vh' } : { height: '60vh' }}
+      style={route === '/' ? { height: '100vh' } : { height: '50vh' }}
       id='hero'
     >
       <div className='hero-overlay h-100'>

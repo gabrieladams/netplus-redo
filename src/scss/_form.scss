@@ -1,14 +1,25 @@
 section#contact {
+  margin-top: 35vh;
   form {
+    .form-group {
+      & > input {
+        padding: 24px 12px;
+      }
+      & > textarea {
+        padding: 12px 12px;
+      }
+    }
     .form-control {
       color: $txt_color;
-      font-size: inherit;
-      padding: 24px 12px;
+      font-size: 12px;
       border: none;
       border-radius: $border_radius;
       background-color: $gray_bgcolor;
+      // @include transition(background-color);
+      transition: background-color 0.15s ease-in-out 0s;
       &:focus {
         box-shadow: initial;
+        background-color: #f1f1f1;
       }
     }
   }

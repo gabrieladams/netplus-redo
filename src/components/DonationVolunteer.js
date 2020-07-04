@@ -17,9 +17,7 @@ function DonationVolunteer() {
                     </div>
                     <div className='item-body'>
                       <p className='mb-0'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                        voluptates, saepe cumque!
+                        Every shilling is highly appreciated.
                       </p>
                     </div>
                     <div className='item-ftr'>
@@ -42,11 +40,7 @@ function DonationVolunteer() {
                       <h4 className='item-title mb-0'>Become a volunteer</h4>
                     </div>
                     <div className='item-body'>
-                      <p className='mb-0'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                        voluptates, saepe cumque!
-                      </p>
+                      <p className='mb-0'>Let's work together.</p>
                     </div>
                     <div className='item-ftr'>
                       <Link

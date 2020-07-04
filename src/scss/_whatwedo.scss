@@ -1,6 +1,9 @@
 section#what-we-do {
   .section-hdr {
     margin-bottom: 72px;
+    @media #{$mobile_device} {
+      margin-bottom: 48px;
+    }
     .section-title {
       color: $hdr_color_dark;
       margin-bottom: 24px;

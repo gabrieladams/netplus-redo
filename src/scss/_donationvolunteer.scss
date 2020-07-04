@@ -1,30 +1,25 @@
 section#donation-volunteer {
-  @include background(url(../assets/img/donation-volunteer-hero.jpg));
+  background-color: $theme_color_light;
   .section-inner {
-    padding: 120px 0px;
-    background-color: $overlay_bgcolor;
     .section-body {
       .item {
         position: relative;
         padding: 24px 48px;
-        border-radius: $border_radius;
-        &:hover::after {
-          width: 100%;
-        }
         &::after {
           content: '';
           display: block;
           width: 0%;
           height: 100%;
-          border-radius: $border_radius;
           position: absolute;
           top: 0;
           left: 0;
-          background-color: $gray_bgcolor;
           @include transition(width);
           @media #{$tab_device} {
             display: none;
           }
+        }
+        &:hover::after {
+          width: 100%;
         }
 
         .item-inner {
@@ -42,7 +37,7 @@ section#donation-volunteer {
             background-color: $theme_color;
           }
           &:hover {
-            @media (min-width: '992px') {
+            @media #{$above_tab_device} {
               .item-hdr {
                 .item-title {
                   color: $hdr_color_light;
@@ -91,7 +86,7 @@ section#donation-volunteer {
           }
           .item-ftr {
             .item-link {
-              background-color: $btn_bgcolor_hover;
+              background-color: $theme_color_light;
               &:hover {
                 background-color: $theme_color;
               }

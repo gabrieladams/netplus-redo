@@ -58,13 +58,12 @@ function SuccessStories() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='item-img item-1-img'></div>
-                    </div>
-                    <div className='modal-body px-5'>
-                      <h6 className='item-title mb-4'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <h6 className='item-title mb-0'>
                         Kawangware Initiative Center Project
                       </h6>
+                    </div>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='item-details mb-4'>
                         <p>
                           The team planned their first visit to the center in
@@ -72,21 +71,21 @@ function SuccessStories() {
                           mind:
                         </p>
                         <ul className='list-group'>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>1.</span>
                             <span>
                               Identifying the talents at Kawangware Initiative
                               Center.
                             </span>
                           </li>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>2.</span>
                             <span>
                               Identifying the Challenges facing the boys/girls
                               and how to plug in.
                             </span>
                           </li>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>3.</span>
                             <span>
                               Long-term Partnership Relationship Initiation.
@@ -105,18 +104,18 @@ function SuccessStories() {
                           center. The sessions covered were:
                         </p>
                         <ul className='list-group'>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex   px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>1.</span>
                             <span>
                               Career development: sharing experiences,
                               expectations and know how's for different careers.
                             </span>
                           </li>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>2.</span>
                             <span>Skills and talent development.</span>
                           </li>
-                          <li className='list-group-item d-flex px-4 border-0'>
+                          <li className='list-group-item d-flex px-2 px-sm-3 px-md-4 border-0'>
                             <span className='pr-1'>3.</span>
                             <span>
                               Health and social issues i.e. boy child and girl
@@ -148,7 +147,7 @@ function SuccessStories() {
                         ></iframe>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -203,13 +202,12 @@ function SuccessStories() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='item-img item-2-img'></div>
-                    </div>
-                    <div className='modal-body px-5'>
-                      <h6 className='item-title mb-4'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <h6 className='item-title mb-0'>
                         Menstrual Health &amp; Hygiene Promotion
                       </h6>
+                    </div>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='item-details mb-4'>
                         <p>
                           To achieve its objective in menstrual health promotion
@@ -239,7 +237,7 @@ function SuccessStories() {
                         ></iframe>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'
@@ -294,13 +292,12 @@ function SuccessStories() {
               >
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
-                    <div className='modal-header pt-4 px-5'>
-                      <div className='item-img item-3-img'></div>
-                    </div>
-                    <div className='modal-body px-5'>
-                      <h6 className='item-title mb-4'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <h6 className='item-title mb-0'>
                         Art Performance &amp; Talent Showcase
                       </h6>
+                    </div>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
                       <div className='item-details'>
                         <p>
                           In line with its vision and objective to enhance
@@ -316,7 +313,7 @@ function SuccessStories() {
                         </p>
                       </div>
                     </div>
-                    <div className='modal-footer justify-content-start pb-4 px-5'>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
                       <button
                         type='button'
                         className='button button-sm'

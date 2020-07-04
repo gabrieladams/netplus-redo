@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function WhatWeDo() {
   return (
@@ -18,144 +17,136 @@ function WhatWeDo() {
         </div>
         <div className='section-body'>
           <div className='row'>
-            {/* item 1 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-1'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
-                </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>Events</h6>
-                  <p className='item-details mb-0'>
-                    We regularly hold events so as to provide a platform for
-                    people to showcase their skills and talent and also
-                    socialize and connect with new faces. The Money raised from
-                    the events is used to fund our community projects and other
-                    activities.
-                  </p>
-                </div>
-                {/* <div className='item-ftr'>
+            {/* col 1 / row 1 */}
+            <div className='col-lg-4'>
+              <div className='row'>
+                {/* item 1 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-1'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>Events</h6>
+                      <p className='item-details mb-0'>
+                        We regularly hold events so as to provide a platform for
+                        people to showcase their skills and talent and also
+                        socialize and connect with new faces. The Money raised
+                        from the events is used to fund our community projects
+                        and other activities.
+                      </p>
+                    </div>
+                    {/* <div className='item-ftr'>
                   <Link className='item-link button button-sm' to='/'>
                     Learn More
                   </Link>
                 </div> */}
-              </div>
-            </div>
+                  </div>
+                </div>
 
-            {/* item 2 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-2'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
-                </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>Community Projects</h6>
-                  <p className='item-details mb-0'>
-                    we believe in giving back to the community as a way of
-                    showing gratitude for all good things we got from our
-                    communities. To show our gratitude we carry out community
-                    projects. We go to the less fortunate communities and bond
-                    with the people, give words of encouragement and hope and
-                    share what we have with the people. Its always a wonderful
-                    experience.
-                  </p>
-                </div>
-                {/* <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Learn More
-                  </Link>
-                </div> */}
-              </div>
-            </div>
-
-            {/* item 3 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-3'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
-                </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>Mentorship Programmes</h6>
-                  <p className='item-details mb-0'>
-                    Mentorship Programmes are held mostly with the youth so as
-                    to provide guidance on social, physical, economical and
-                    spiritual aspects of life. We do believe that having people
-                    that are woke in all aspects of life is key to having a
-                    better society.
-                  </p>
-                </div>
-                {/* <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Learn More
-                  </Link>
-                </div> */}
-              </div>
-            </div>
-
-            {/* item 4 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-4'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
-                </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>Community Services</h6>
-                  <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
-                  </p>
-                </div>
-                <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Learn More
-                  </Link>
+                {/* item 4 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-4'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>Community Services</h6>
+                      <p className='item-details mb-0'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos sequi sunt amet cupiditate at fuga aspernatur rerum
+                        voluptates, saepe cumque!
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* item 5 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-5'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
+            {/* col 2 / row 2 */}
+            <div className='col-lg-4'>
+              <div className='row'>
+                {/* item 2 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-2'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>Community Projects</h6>
+                      <p className='item-details mb-0'>
+                        we believe in giving back to the community as a way of
+                        showing gratitude for all good things we got from the
+                        communitiy. To show our gratitude we carry out community
+                        projects. We go to the less fortunate communities and
+                        bond with the people, give words of encouragement and
+                        hope and share what we have with the people. Its always
+                        a wonderful experience.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>Talent Search &amp; Nurturing</h6>
-                  <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
-                  </p>
-                </div>
-                <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Learn More
-                  </Link>
+
+                {/* item 5 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-5'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>
+                        Talent Search &amp; Nurturing
+                      </h6>
+                      <p className='item-details mb-0'>
+                        Aside from providing a platfrorm for people to showcase
+                        their skills and talent, we also search for and nurture
+                        talents.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* item 6 */}
-            <div className='col-md-6 col-lg-4'>
-              <div className='item item-6'>
-                <div className='item-hdr'>
-                  <div className='item-img'></div>
+            {/* col 3 */}
+            <div className='col-lg-4'>
+              <div className='row'>
+                {/* item 3 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-3'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>Mentorship Programmes</h6>
+                      <p className='item-details mb-0'>
+                        Mentorship Programmes are held mostly with the youth so
+                        as to provide guidance on social, physical, economical
+                        and spiritual aspects of life and also provide an
+                        opportunity for people to share their inspiring life
+                        experiences.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className='item-body'>
-                  <h6 className='item-title'>
-                    Community Capacity Building &amp; Empowerment
-                  </h6>
-                  <p className='item-details mb-0'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sequi sunt amet cupiditate at fuga aspernatur rerum
-                    voluptates, saepe cumque!
-                  </p>
-                </div>
-                <div className='item-ftr'>
-                  <Link className='item-link button button-sm' to='/'>
-                    Learn More
-                  </Link>
+
+                {/* item 6 */}
+                <div className='col-md-6 col-lg-12'>
+                  <div className='item item-6'>
+                    <div className='item-hdr'>
+                      <div className='item-img'></div>
+                    </div>
+                    <div className='item-body'>
+                      <h6 className='item-title'>
+                        Community Capacity Building &amp; Empowerment
+                      </h6>
+                      <p className='item-details mb-0'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos sequi sunt amet cupiditate at fuga aspernatur rerum
+                        voluptates, saepe cumque!
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

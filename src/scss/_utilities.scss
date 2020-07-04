@@ -6,7 +6,7 @@
   background-color: $theme_color;
   @include transition(background-color);
   &:hover {
-    background-color: $btn_bgcolor_hover;
+    background-color: $theme_color_light;
   }
   &:focus {
     outline: none;

@@ -7,7 +7,7 @@
 
 @mixin transition($property) {
   transition-property: $property;
-  transition-duration: 0.3s;
+  transition-duration: 0.27s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 }

@@ -1,6 +1,9 @@
 section#success-stories {
   .section-hdr {
     margin-bottom: 72px;
+    @media #{$mobile_device} {
+      margin-bottom: 48px;
+    }
     .section-title {
       color: $hdr_color_dark;
       margin-bottom: 24px;
@@ -8,7 +11,7 @@ section#success-stories {
   }
   .section-body {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 48px;
       .item-hdr {
         .item-img {
           height: 168px;
@@ -51,18 +54,14 @@ section#success-stories {
           border-bottom: none;
           border-top-left-radius: $border_radius;
           border-top-right-radius: $border_radius;
-          .item-img {
-            height: 40vh;
-            border-radius: $border_radius;
+          .item-title {
+            color: $hdr_color_dark;
           }
         }
         .modal-body {
           padding-top: 12px;
           padding-bottom: 12px;
-          .item-title {
-            margin-bottom: 12px;
-            color: $hdr_color_dark;
-          }
+
           .item-details {
             color: inherit;
             font-size: inherit;
@@ -80,25 +79,10 @@ section#success-stories {
           border-top: none;
           border-bottom-right-radius: $border_radius;
           border-bottom-left-radius: $border_radius;
+          & > * {
+            margin: 0px;
+          }
         }
-      }
-
-      .item-1-img {
-        @include background(
-          url(../assets/img/kawangware-initiative-project.jpg)
-        );
-        background-position: top;
-      }
-
-      .item-2-img {
-        @include background(url(../assets/img/mentorship-programmes.jpg));
-        background-position: top;
-      }
-
-      .item-3-img {
-        @include background(
-          url(../assets/img/art-performance-and-talent-showcase.jpg)
-        );
       }
     }
   }

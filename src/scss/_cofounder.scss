@@ -1,27 +1,10 @@
 section#co-founder {
   .co-founder-img {
-    position: relative;
     height: 100%;
     .img {
       border-radius: $border_radius;
       @include background(url(../assets/img/co-founder.jpg));
       background-position: top;
-    }
-    &::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 48px;
-      left: 48px;
-      border-radius: $border_radius;
-      background-color: $gray_bgcolor;
-      filter: blur(6px);
-      z-index: -1;
-      @media #{$mobile_device} {
-        display: none;
-      }
     }
     @media #{$mobile_device} {
       height: 300px;
@@ -29,20 +12,26 @@ section#co-founder {
     }
   }
   .section-content {
-    padding: 51px 0px 51px 48px;
+    padding: 81px 0px 81px 33px;
     @media #{$mobile_device} {
       padding: 0px;
     }
     @media #{$tab} {
-      padding: 51px 0px 51px 24px;
+      padding: 51px 0px 51px 9px;
+    }
+    @media #{$md_device} {
+      padding: 81px 0px 81px 9px;
     }
     .section-content-inner {
-      padding: 51px 0px 51px 48px;
+      padding: 81px 0px 81px 33px;
       @media #{$mobile_device} {
         padding: 0px;
       }
       @media #{$tab} {
-        padding: 51px 0px 51px 24px;
+        padding: 51px 0px 51px 9px;
+      }
+      @media #{$md_device} {
+        padding: 81px 0px 81px 9px;
       }
       .co-founder-details {
         p:nth-child(2) {
