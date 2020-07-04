@@ -79,7 +79,7 @@ section#motive-gallery {
       .section-ftr {
         .section-link {
           color: inherit;
-          font-size: inherit;
+          font-size: 12px;
           @include transition(color);
           &:hover {
             color: #000000;
