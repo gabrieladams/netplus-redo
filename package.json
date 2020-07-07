@@ -1,7 +1,7 @@
 {
   "name": "netplus-redo",
   "version": "0.1.0",
-  "homepage": "http://gabrieladams.github.io/netplus-redo",
+  "homepage": "http://gabrieladams.github.io/netplus-redo/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",

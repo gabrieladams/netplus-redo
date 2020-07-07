@@ -48,6 +48,11 @@ function NavBar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link className='nav-link' to='/gallery'>
+                Gallery
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link className='nav-link' to='/contact'>
                 Contact
               </Link>

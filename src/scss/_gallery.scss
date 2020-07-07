@@ -1,0 +1,20 @@
+section#gallery-section {
+  .gallery-img {
+    background-color: $gray_bgcolor;
+    &.span-1 {
+      height: 200px;
+    }
+    &.span-2 {
+      height: 430px;
+    }
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .mb-md-0 {
+    margin-bottom: 30px;
+    @media #{$above_mobile_device} {
+      margin-bottom: 0px;
+    }
+  }
+}
