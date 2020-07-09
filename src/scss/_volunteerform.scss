@@ -1,0 +1,65 @@
+section#volunteer-form {
+  .section-inner {
+    position: relative;
+    .form {
+      position: relative;
+      z-index: 1000;
+      form {
+        background-color: $neutral_color;
+        .form-group {
+          & > select {
+            option {
+              min-height: initial;
+              height: 50px;
+              padding: 10px;
+            }
+          }
+        }
+        .form-control {
+          height: initial;
+          color: $txt_color;
+          font-size: 12px;
+          padding: 16px 12px;
+          border: none;
+          border-radius: $border_radius;
+          background-color: $gray_bgcolor;
+          transition: background-color 0.15s ease-in-out 0s;
+          &:focus {
+            box-shadow: initial;
+            background-color: #f1f1f1;
+          }
+        }
+      }
+    }
+    .backdrop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      .backdrop-left {
+        background-color: $theme_color;
+      }
+      .backdrop-right {
+        position: relative;
+        @include background(url(../assets/img/donation-volunteer-hero.jpg));
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(
+            to bottom,
+            rgba($theme_color_light, 0.2),
+            rgba($theme_color_light, 0.4),
+            rgba($theme_color_light, 0.6),
+            rgba($theme_color_light, 0.8)
+          );
+        }
+      }
+    }
+  }
+}

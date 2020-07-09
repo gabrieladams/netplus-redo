@@ -1,0 +1,42 @@
+section#testimonials {
+  .section-hdr {
+    margin-bottom: 72px;
+    @media #{$mobile_device} {
+      margin-bottom: 48px;
+    }
+    .section-title {
+      color: $hdr_color_dark;
+      margin-bottom: 24px;
+    }
+  }
+
+  .section-body {
+    .item {
+      box-shadow: $box_shadow;
+      .item-img {
+        margin-bottom: 12px;
+      }
+      .item-title {
+        color: $hdr_color_dark;
+        margin-bottom: 12px;
+      }
+      &.item-1 {
+        margin-bottom: 30px;
+        .item-img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          @include background(url(../assets/img/Cheryl-profile.jpg));
+        }
+      }
+      &.item-2 {
+        .item-img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          @include background(url(../assets/img/Ayuma-profile.jpg));
+        }
+      }
+    }
+  }
+}

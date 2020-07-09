@@ -1,4 +1,4 @@
-section#motive-gallery {
+section#human-resource {
   .section-img {
     position: relative;
     @include background(url(../assets/img/donation-volunteer-hero.jpg));
@@ -21,12 +21,17 @@ section#motive-gallery {
   }
   .section-content {
     width: 100%;
+    padding-top: 144px;
+    padding-bottom: 144px;
     padding-left: 88px;
     padding-right: 144px;
-    @media #{$mobile_md} {
+    @media #{$mobile_device} {
+      padding-top: 48px;
+      padding-bottom: 48px;
       padding-left: 0px;
       padding-right: 0px;
     }
+
     @media #{$mobile_lg} {
       padding-left: 48px;
       padding-right: 48px;
@@ -36,6 +41,7 @@ section#motive-gallery {
       padding-left: 40px;
       padding-right: 40px;
     }
+
     @media screen and (min-width: 1441px) {
       width: 824px;
     }
@@ -44,49 +50,27 @@ section#motive-gallery {
       color: $hdr_color_dark;
     }
 
-    .gallery-section {
-      .section-body {
-        .gallery-img {
-          &.span-1 {
-            height: 96px;
-            @media #{$mobile_device} {
-              height: 208px;
-            }
-          }
-          &.span-2 {
-            height: 208px;
-          }
-        }
-        .gallery-img-1 {
-          @include background(url(../assets/img/gallery-img-1.jpg));
-        }
-        .gallery-img-2 {
-          @include background(url(../assets/img/gallery-img-2.jpg));
-        }
-        .gallery-img-3 {
-          @include background(url(../assets/img/gallery-img-3.jpg));
-        }
-        .gallery-img-4 {
-          @include background(url(../assets/img/gallery-img-4.jpg));
-        }
-        .gallery-img-5 {
-          @include background(url(../assets/img/gallery-img-5.jpg));
-        }
-        .gallery-img-6 {
-          @include background(url(../assets/img/gallery-img-6.jpg));
-        }
-      }
-      .section-ftr {
-        .section-link {
-          color: inherit;
-          font-size: 12px;
-          @include transition(color);
-          &:hover {
-            color: #000000;
+    .section-body {
+      .volunteer-list {
+        .volunteer-list-item {
+          .list-item-number {
+            width: 35px;
+            height: 35px;
+            font-size: 12px;
+            color: $neutral_color;
+            background-color: $theme_color;
+            border-radius: 50%;
           }
         }
       }
     }
+  }
+
+  .pl-12 {
+    padding-left: 12px;
+  }
+  .mb-12 {
+    margin-bottom: 12px;
   }
 
   .w-md-100 {
@@ -111,20 +95,6 @@ section#motive-gallery {
     @media #{$above_mobile_device} {
       margin-left: -8px;
       margin-right: -8px;
-    }
-  }
-
-  .mb-md-0 {
-    margin-bottom: 16px;
-    @media #{$above_mobile_device} {
-      margin-bottom: 0px;
-    }
-  }
-
-  .mb-md-16 {
-    margin-bottom: 0px;
-    @media #{$above_mobile_device} {
-      margin-bottom: 16px;
     }
   }
 }

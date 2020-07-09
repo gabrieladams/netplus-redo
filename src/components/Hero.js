@@ -74,7 +74,7 @@ function Hero() {
                     className='button button-lg'
                     to='/volunteers'
                   >
-                    Join us today
+                    Join Us Today
                   </Link>
                 </div>
               </div>

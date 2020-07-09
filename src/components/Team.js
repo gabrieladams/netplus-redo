@@ -351,7 +351,7 @@ function Team() {
                             Jijo
                           </h6>
                           <h6 className='item-details member-position text-center mb-0'>
-                            Member
+                            Graphic &amp; Product Designer
                           </h6>
                         </div>
                       </div>

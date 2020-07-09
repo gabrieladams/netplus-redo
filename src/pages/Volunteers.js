@@ -1,10 +1,17 @@
 import React from 'react';
+import HumanResource from '../components/HumanResource';
+import JoinUs from '../components/JoinUs';
+import VolunteerForm from '../components/VolunteerForm';
+import Testimonials from '../components/Testimonials';
 
 function Volunteers() {
   return (
-    <div>
-      <h1>volunteers page.</h1>
-    </div>
+    <React.Fragment>
+      <HumanResource />
+      <JoinUs />
+      <VolunteerForm />
+      <Testimonials />
+    </React.Fragment>
   );
 }
 
