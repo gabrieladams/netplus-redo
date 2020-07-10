@@ -9,9 +9,9 @@ function Testimonials() {
             <div className='col-md-8 col-lg-6'>
               <h2 className='section-title'>Testimonials</h2>
               <p className='section-subtxt mb-0'>
-                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
                 sequi sunt amet cupiditate at fuga aspernatur rerum voluptates,
-                saepe cumque! */}
+                saepe cumque!
               </p>
             </div>
           </div>
