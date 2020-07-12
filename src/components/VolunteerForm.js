@@ -9,7 +9,13 @@ function VolunteerForm() {
             <div className='container'>
               <div className='row justify-content-md-center'>
                 <div className='col-md-8 col-lg-6 col-xl-5'>
-                  <form className='p-5'>
+                  <form
+                    name='Volunteers-form'
+                    method='POST'
+                    data-netlify='true'
+                    data-netlify-recaptcha='true'
+                    className='p-5'
+                  >
                     <div className='form-group mb-4'>
                       <input
                         type='text'
@@ -30,12 +36,16 @@ function VolunteerForm() {
                       <input
                         type='text'
                         placeholder='Phone Number'
-                        name='Subject'
+                        name='Phone Number'
                         className='form-control'
                       />
                     </div>
                     <div className='form-group mb-5'>
-                      <select name='' id='' className='form-control'>
+                      <select
+                        name='Occupation'
+                        id='occupation'
+                        className='form-control'
+                      >
                         <option value='Occupational Therapist'>
                           Occupational Therapist
                         </option>
@@ -50,6 +60,7 @@ function VolunteerForm() {
                         <option value='Teachers'>Teachers</option>
                       </select>
                     </div>
+                    <div data-netlify-recaptcha='true'></div>
                     <button type='submit' className='button button-lg w-100'>
                       Send
                     </button>
