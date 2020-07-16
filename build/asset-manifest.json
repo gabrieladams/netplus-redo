@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8413d844.chunk.css",
+    "main.js": "/static/js/main.653dbf0d.chunk.js",
+    "main.js.map": "/static/js/main.653dbf0d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35a26a64.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35a26a64.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7686b808.chunk.js": "/static/js/2.7686b808.chunk.js",
+    "static/js/2.7686b808.chunk.js.map": "/static/js/2.7686b808.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ae372d061e71522a65c2048a44657463.js": "/precache-manifest.ae372d061e71522a65c2048a44657463.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.8413d844.chunk.css.map": "/static/css/main.8413d844.chunk.css.map",
+    "static/js/2.7686b808.chunk.js.LICENSE.txt": "/static/js/2.7686b808.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/static/media/talent-search-and-nurturing.428fa72a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35a26a64.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7686b808.chunk.js",
+    "static/css/main.8413d844.chunk.css",
+    "static/js/main.653dbf0d.chunk.js"
+  ]
+}
