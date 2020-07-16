@@ -1,5 +1,5 @@
 section#contact {
-  margin-top: 35vh;
+  margin-top: 20vh;
   form {
     .form-group {
       & > input {
@@ -15,7 +15,6 @@ section#contact {
       border: none;
       border-radius: $border_radius;
       background-color: $gray_bgcolor;
-      // @include transition(background-color);
       transition: background-color 0.15s ease-in-out 0s;
       &:focus {
         box-shadow: initial;

@@ -5,6 +5,7 @@ section#volunteer-form {
       position: relative;
       z-index: 1000;
       form {
+        border-radius: $border_radius;
         background-color: $neutral_color;
         .form-group {
           & > select {

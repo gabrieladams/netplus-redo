@@ -47,6 +47,7 @@ section#motive-gallery {
     .gallery-section {
       .section-body {
         .gallery-img {
+          border-radius: $border_radius;
           &.span-1 {
             height: 96px;
             @media #{$mobile_device} {

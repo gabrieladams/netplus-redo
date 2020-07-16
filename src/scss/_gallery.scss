@@ -1,11 +1,7 @@
 section#gallery-section {
   .gallery-img {
-    background-color: $gray_bgcolor;
-    &.span-1 {
-      // height: 200px;
-    }
-    &.span-2 {
-      // height: 430px;
+    img {
+      border-radius: $border_radius;
     }
   }
   .mb-30 {

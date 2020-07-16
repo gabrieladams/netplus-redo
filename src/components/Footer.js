@@ -51,11 +51,11 @@ function Footer() {
                     </div>
 
                     <div className='d-flex flex-column pl-5'>
-                      {/* <Link to='/partnership-and-collaboration'>
-                        <p>Partnership &amp; Collaboration</p>
-                      </Link> */}
                       <Link to='/donation' className='mb-12'>
                         Donation
+                      </Link>
+                      <Link to='/donation' className='mb-12'>
+                        Gallery
                       </Link>
                       <Link to='/contact' className=''>
                         Conatct
@@ -81,7 +81,12 @@ function Footer() {
                     <span className='icon'>
                       <FontAwesomeIcon icon={faEnvelope} />
                     </span>
-                    <div className='pl-3'>Netplus@gmail.com</div>
+                    <div className='pl-3'>
+                      <span className='mb-2 d-block'>
+                        netpluskenya@gmail.com
+                      </span>
+                      <span className='d-block'>netplus254@gmail.com</span>
+                    </div>
                   </div>
                   <div className='d-flex'>
                     <span className='pr-3'>
