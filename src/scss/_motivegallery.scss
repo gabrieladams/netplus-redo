@@ -114,9 +114,9 @@ section#motive-gallery {
     }
   }
 
-  .mb-md-0 {
+  .mb-lg-0 {
     margin-bottom: 16px;
-    @media #{$above_mobile_device} {
+    @media #{$above_tab_device} {
       margin-bottom: 0px;
     }
   }

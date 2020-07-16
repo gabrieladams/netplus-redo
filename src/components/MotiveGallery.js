@@ -62,36 +62,36 @@ function MotiveGallery() {
                 <div className='section-body mb-4'>
                   <div className='row mx-md-n8'>
                     {/* col-1 */}
-                    <div className='col-md-3 px-md-2 mb-md-0'>
+                    <div className='col-md-6 col-lg-3 px-md-2 mb-lg-0'>
                       <div className='gallery-img gallery-img-1 span-2'></div>
                     </div>
 
                     {/* col-2 */}
-                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-md-0'>
+                    <div className='col-md-6 col-lg-3 d-flex flex-md-column px-md-2 mb-lg-0'>
                       <div className='gallery-img gallery-img-2 span-1 w-md-100 mr-2 mr-md-0 mb-md-16'></div>
                       <div className='gallery-img gallery-img-3 span-1 w-md-100 ml-2 ml-md-0'></div>
                     </div>
 
                     {/* col-3 */}
-                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-md-0'>
+                    <div className='col-md-6 col-lg-3 d-flex flex-md-column px-md-2 mb-lg-0'>
                       <div className='gallery-img gallery-img-4 span-1 w-md-100 mr-2 mr-md-0 mb-md-16'></div>
                       <div className='gallery-img gallery-img-5 span-1 w-md-100 ml-2 ml-md-0'></div>
                     </div>
 
                     {/* col-4 */}
-                    <div className='col-md-3 px-md-2'>
+                    <div className='col-md-6 col-lg-3 px-md-2'>
                       <div className='gallery-img gallery-img-6 span-2'></div>
                     </div>
 
                     {/* col-1
-                    <div className='col-md-3 px-md-2 mb-md-0'>
+                    <div className='col-md-3 px-md-2 mb-lg-0'>
                       <a href={gallery_img_1} className='g-img d-block'>
                         <div className='gallery-img gallery-img-1 span-2'></div>
                       </a>
                     </div>
 
                     col-2
-                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-md-0'>
+                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-lg-0'>
                       <a href={gallery_img_2} className='g-img d-block'>
                         <div className='gallery-img gallery-img-2 span-1 w-md-100 mr-2 mr-md-0 mb-md-16'></div>
                       </a>
@@ -101,7 +101,7 @@ function MotiveGallery() {
                     </div>
 
                     col-3
-                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-md-0'>
+                    <div className='col-md-3 d-flex flex-md-column px-md-2 mb-lg-0'>
                       <a href={gallery_img_4} className='g-img d-block'>
                         <div className='gallery-img gallery-img-4 span-1 w-md-100 mr-2 mr-md-0 mb-md-16'></div>
                       </a>

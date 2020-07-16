@@ -34,7 +34,9 @@ section#success-stories {
       }
       &.item-2 {
         .item-img {
-          @include background(url(../assets/img/mentorship-programmes.jpg));
+          @include background(
+            url(../assets/img/menstraul-health-and-hygiene.jpg)
+          );
         }
       }
       &.item-3 {
