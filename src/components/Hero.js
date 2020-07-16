@@ -8,7 +8,7 @@ function Hero() {
   const heroHdr =
     route === '/' ? (
       <React.Fragment>
-        We Connect, Inspire &amp; Grow Talent Amongst The Youth.
+        We Connect, Motivate, Inspire &amp; Grow Talent Amongst The Youth.
       </React.Fragment>
     ) : route === '/about' ? (
       'About the agency'
