@@ -13,6 +13,8 @@ function VolunteerForm() {
                     name='Volunteers-form'
                     method='post'
                     netlify
+                    netlify-honeypot='bot-field'
+                    hidden
                     // data-netlify='true'
                     // data-netlify-recaptcha='true'
                     className='p-5'

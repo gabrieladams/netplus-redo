@@ -7,7 +7,7 @@ function Contact() {
   return (
     <React.Fragment>
       {/* <Form /> */}
-      import NetlifyForm from 'react-netlify-form'
+      {/* import NetlifyForm from 'react-netlify-form' */}
       <NetlifyForm name='Contact Form'>
         {({ loading, error, success }) => (
           <div>
@@ -18,6 +18,7 @@ function Contact() {
             {success && <div>Thank you for contacting us!</div>}
             {!loading && !success && (
               <div>
+                <input type='hidden' name='form-name' value='Contact Form' />
                 <input type='text' name='Name' required />
                 <textarea name='Message' required />
                 <button>Submit</button>
