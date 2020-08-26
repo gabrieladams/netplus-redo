@@ -12,8 +12,8 @@ function VolunteerForm() {
                   <form
                     name='Volunteers Form'
                     method='POST'
-                    netlify
-                    netlify-honeypot='bot-field'
+                    // netlify
+                    // netlify-honeypot='bot-field'
                     className='p-5'
                   >
                     <div className='form-group mb-4'>
@@ -39,7 +39,7 @@ function VolunteerForm() {
                     </div>
                     <div className='form-group mb-4'>
                       <input
-                        type='text'
+                        type='number'
                         placeholder='Phone Number'
                         name='Phone Number'
                         className='form-control'

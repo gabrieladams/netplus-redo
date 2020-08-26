@@ -16,10 +16,34 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+
+    <form name="Volunteers Form" netlify netlify-honeypot="bot-field" hidden>
+      <input
+        type="text"
+        placeholder="Name"
+        name="Name"
+        className="form-control"
+      />
+      <input
+        type="email"
+        placeholder="Email"
+        name="Email"
+        className="form-control"
+      />
+      <input
+        type="number"
+        placeholder="Phone Number"
+        name="Phone Number"
+        className="form-control"
+      />
+      <select name="Occupation" id="occupation" className="form-control">
+        <option value="Occupational Therapist">Occupational Therapist</option>
+        <option value="Speech Therapists">Speech Therapists</option>
+        <option value="Physiotherapists">Physiotherapists</option>
+        <option value="Social Workers">Social Workers</option>
+        <option value="Psychologists">Psychologists</option>
+        <option value="Teachers">Teachers</option>
+      </select>
     </form>
     <div id="root"></div>
 
