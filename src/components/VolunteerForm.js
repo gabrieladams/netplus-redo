@@ -14,16 +14,14 @@ function VolunteerForm() {
                     method='POST'
                     netlify
                     netlify-honeypot='bot-field'
-                    // data-netlify='true'
-                    // data-netlify-recaptcha='true'
                     className='p-5'
                   >
-                    <input
-                      type='hidden'
-                      name='form-name'
-                      value='Volunteers Form'
-                    />
                     <div className='form-group mb-4'>
+                      <input
+                        type='hidden'
+                        name='form-name'
+                        value='Volunteers Form'
+                      />
                       <input
                         type='text'
                         placeholder='Name'
@@ -67,7 +65,6 @@ function VolunteerForm() {
                         <option value='Teachers'>Teachers</option>
                       </select>
                     </div>
-                    <div data-netlify-recaptcha='true'></div>
                     <button type='submit' className='button button-lg w-100'>
                       Send
                     </button>
