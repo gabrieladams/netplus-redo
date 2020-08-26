@@ -1,5 +1,5 @@
 section#contact {
-  margin-top: 20vh;
+  margin-top: 10vh;
   form {
     .form-group {
       & > input {
@@ -19,6 +19,35 @@ section#contact {
       &:focus {
         box-shadow: initial;
         background-color: #f1f1f1;
+      }
+    }
+  }
+
+  .contact-info {
+    @media #{$mobile_device} {
+      padding-bottom: 48px;
+    }
+    .contact-info-item {
+      .contact-info-item-inner {
+        @media #{$mobile_device} {
+          width: 100%;
+        }
+
+        background-color: #f1f1f1;
+
+        .item-icon {
+          padding: 24px;
+
+          background-color: #dedddd;
+        }
+        .item-info {
+          padding: 0px 12px;
+
+          font-size: 12px;
+          p {
+            margin-bottom: 6px;
+          }
+        }
       }
     }
   }

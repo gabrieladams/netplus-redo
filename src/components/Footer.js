@@ -78,7 +78,7 @@ function Footer() {
                         style={{ fontSize: '14px' }}
                       />
                     </span>
-                    <div className='pl-3'>+254 444 444 444</div>
+                    <div className='pl-3'>+254 710 253 321</div>
                   </div>
                   <div className='d-flex mb-4'>
                     <span className='icon'>
