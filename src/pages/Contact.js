@@ -1,14 +1,13 @@
 import React from 'react';
 import Form from '../components/Form';
 
-import NetlifyForm from 'react-netlify-form';
+// import NetlifyForm from 'react-netlify-form';
 
 function Contact() {
   return (
     <React.Fragment>
-      {/* <Form /> */}
-      {/* import NetlifyForm from 'react-netlify-form' */}
-      <NetlifyForm name='Contact Form'>
+      <Form />
+      {/* <NetlifyForm name='Contact Form'>
         {({ loading, error, success }) => (
           <div>
             {loading && <div>Loading...</div>}
@@ -26,7 +25,7 @@ function Contact() {
             )}
           </div>
         )}
-      </NetlifyForm>
+      </NetlifyForm> */}
     </React.Fragment>
   );
 }

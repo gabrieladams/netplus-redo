@@ -10,8 +10,8 @@ function VolunteerForm() {
               <div className='row'>
                 <div className='col-md-8 col-lg-6 col-xl-5'>
                   <form
-                    name='Volunteers-form'
-                    method='post'
+                    name='Volunteers Form'
+                    method='POST'
                     netlify
                     netlify-honeypot='bot-field'
                     // data-netlify='true'
@@ -21,7 +21,7 @@ function VolunteerForm() {
                     <input
                       type='hidden'
                       name='form-name'
-                      value='Volunteers-form'
+                      value='Volunteers Form'
                     />
                     <div className='form-group mb-4'>
                       <input
