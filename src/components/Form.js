@@ -6,7 +6,8 @@ function Form() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-7'>
-            <form>
+            <form name='Contact Form' method='POST'>
+              <input type='hidden' name='form-name' value='Contact Form' />
               <div className='form-row'>
                 <div className='form-group col-md-6 mb-4'>
                   <input
@@ -46,11 +47,11 @@ function Form() {
               </button>
             </form>
           </div>
-          {/* <div className='col-md-5 pl-4'>
+          <div className='col-md-5 pl-4'>
             <p>Netplus Project Coordinator: 0710253321</p>
             <p>Email: netplus254@gmail.com</p>
             <p>Humanitarian Educational Centre Admin: 0723770871</p>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

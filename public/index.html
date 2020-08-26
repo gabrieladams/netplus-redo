@@ -45,6 +45,33 @@
         <option value="Teachers">Teachers</option>
       </select>
     </form>
+
+    <form name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
+      <input
+        type="text"
+        placeholder="Name"
+        name="Name"
+        className="form-control"
+      />
+      <input
+        type="email"
+        placeholder="Email"
+        name="Email"
+        className="form-control"
+      />
+      <input
+        type="text"
+        placeholder="Subject"
+        name="Subject"
+        className="form-control"
+      />
+      <textarea
+        style="height: 200px"
+        placeholder="Message"
+        name="Message"
+        className="form-control w-100"
+      ></textarea>
+    </form>
     <div id="root"></div>
 
     <script

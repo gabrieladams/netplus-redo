@@ -9,19 +9,14 @@ function VolunteerForm() {
             <div className='container'>
               <div className='row'>
                 <div className='col-md-8 col-lg-6 col-xl-5'>
-                  <form
-                    name='Volunteers Form'
-                    method='POST'
-                    // netlify
-                    // netlify-honeypot='bot-field'
-                    className='p-5'
-                  >
+                  <form name='Volunteers Form' method='POST' className='p-5'>
+                    <input
+                      type='hidden'
+                      name='form-name'
+                      value='Volunteers Form'
+                    />
+
                     <div className='form-group mb-4'>
-                      <input
-                        type='hidden'
-                        name='form-name'
-                        value='Volunteers Form'
-                      />
                       <input
                         type='text'
                         placeholder='Name'

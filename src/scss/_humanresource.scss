@@ -2,22 +2,22 @@ section#human-resource {
   .section-img {
     position: relative;
     @include background(url(../assets/img/volunteers.jpg));
-    &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: linear-gradient(
-        to bottom,
-        rgba($theme_color_light, 0.2),
-        rgba($theme_color_light, 0.4),
-        rgba($theme_color_light, 0.6),
-        rgba($theme_color_light, 0.8)
-      );
-    }
+    // &::after {
+    //   content: '';
+    //   display: block;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   background-image: linear-gradient(
+    //     to bottom,
+    //     rgba($theme_color_light, 0.2),
+    //     rgba($theme_color_light, 0.4),
+    //     rgba($theme_color_light, 0.6),
+    //     rgba($theme_color_light, 0.8)
+    //   );
+    // }
   }
   .section-content {
     width: 100%;

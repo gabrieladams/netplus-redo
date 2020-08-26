@@ -73,13 +73,19 @@ function Footer() {
                 <div className='item-body'>
                   <div className='d-flex mb-12'>
                     <span className='icon'>
-                      <FontAwesomeIcon icon={faPhoneAlt} />
+                      <FontAwesomeIcon
+                        icon={faPhoneAlt}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                     <div className='pl-3'>+254 444 444 444</div>
                   </div>
                   <div className='d-flex mb-4'>
                     <span className='icon'>
-                      <FontAwesomeIcon icon={faEnvelope} />
+                      <FontAwesomeIcon
+                        icon={faEnvelope}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                     <div className='pl-3'>
                       <span className='mb-2 d-block'>
@@ -90,16 +96,28 @@ function Footer() {
                   </div>
                   <div className='d-flex'>
                     <span className='pr-3'>
-                      <FontAwesomeIcon icon={faInstagram} />
+                      <FontAwesomeIcon
+                        icon={faInstagram}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                     <span className='pr-3'>
-                      <FontAwesomeIcon icon={faTwitter} />
+                      <FontAwesomeIcon
+                        icon={faTwitter}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                     <span className='pr-3'>
-                      <FontAwesomeIcon icon={faFacebook} />
+                      <FontAwesomeIcon
+                        icon={faFacebook}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                     <span className='pr-3'>
-                      <FontAwesomeIcon icon={faYoutube} />
+                      <FontAwesomeIcon
+                        icon={faYoutube}
+                        style={{ fontSize: '14px' }}
+                      />
                     </span>
                   </div>
                 </div>
