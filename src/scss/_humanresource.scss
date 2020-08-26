@@ -1,7 +1,7 @@
 section#human-resource {
   .section-img {
     position: relative;
-    @include background(url(../assets/img/donation-volunteer-hero.jpg));
+    @include background(url(../assets/img/volunteers.jpg));
     &::after {
       content: '';
       display: block;

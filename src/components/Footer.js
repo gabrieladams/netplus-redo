@@ -54,7 +54,7 @@ function Footer() {
                       <Link to='/donation' className='mb-12'>
                         Donation
                       </Link>
-                      <Link to='/donation' className='mb-12'>
+                      <Link to='/gallery' className='mb-12'>
                         Gallery
                       </Link>
                       <Link to='/contact' className=''>

@@ -7,15 +7,21 @@ function VolunteerForm() {
         <div className='section-inner section'>
           <div className='form'>
             <div className='container'>
-              <div className='row justify-content-md-center'>
+              <div className='row'>
                 <div className='col-md-8 col-lg-6 col-xl-5'>
                   <form
                     name='Volunteers-form'
-                    method='POST'
-                    data-netlify='true'
-                    data-netlify-recaptcha='true'
+                    method='post'
+                    netlify
+                    // data-netlify='true'
+                    // data-netlify-recaptcha='true'
                     className='p-5'
                   >
+                    <input
+                      type='hidden'
+                      name='form-name'
+                      value='Volunteers-form'
+                    />
                     <div className='form-group mb-4'>
                       <input
                         type='text'

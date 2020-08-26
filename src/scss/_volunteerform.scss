@@ -43,7 +43,7 @@ section#volunteer-form {
       }
       .backdrop-right {
         position: relative;
-        @include background(url(../assets/img/donation-volunteer-hero.jpg));
+        @include background(url(../assets/img/volunteer-img-2.jpg));
         &::after {
           content: '';
           display: block;
