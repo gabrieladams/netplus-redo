@@ -14,7 +14,6 @@ function VolunteerForm() {
                     method='post'
                     netlify
                     netlify-honeypot='bot-field'
-                    hidden
                     // data-netlify='true'
                     // data-netlify-recaptcha='true'
                     className='p-5'
