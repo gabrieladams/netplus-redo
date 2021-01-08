@@ -10,6 +10,7 @@ import Volunteers from './pages/Volunteers';
 import PartnershipCollaboration from './pages/PartnershipCollaboration';
 import Donation from './pages/Donation';
 import Gallery from './pages/Gallery';
+import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         />
         <Route path='/donation' component={Donation} />
         <Route path='/gallery' component={Gallery} />
+        <Route path='/blog' component={Blog} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />

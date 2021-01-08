@@ -52,8 +52,7 @@ function Team() {
                 tabindex='-1'
                 role='dialog'
                 aria-labelledby='staticBackdropLabel'
-                aria-hidden='true'
-              >
+                aria-hidden='true'>
                 <div className='modal-dialog modal-lg modal-dialog-centered'>
                   <div className='modal-content'>
                     <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
@@ -75,6 +74,105 @@ function Team() {
                           Cheryl Okumu is the co-founder and CEO of Net Plus,
                           she oversees the day to day running of the
                           organization.
+                        </p>
+                        <p>
+                          She holds a certificate course in psychology from Dima
+                          College, 5th year medical student at the university of
+                          Nairobi. She is a business owner and entrepreneur.
+                        </p>
+                        <p>
+                          She takes a vision and makes it a reality through
+                          sound strategy development. She intuitively sees
+                          threads of opportunity that wind through an
+                          organization, brings them together into a coherent
+                          whole, helps others extend their thinking, and drives
+                          humanitarian business advantage.
+                        </p>
+                        <p>
+                          She is an inspirational leader who tells stories that
+                          inspire action while at the same time grounded in
+                          humanitarian information that levers the society. She
+                          is respected as a credible voice in decision making,
+                          finding strategic humanitarian and financing partners,
+                          and establishing governance boundaries.
+                        </p>
+                        <p className='mb-0'>
+                          She is distinguished by her ability to identify,
+                          leverage, and develop talent. She has a contagious
+                          enthusiasm and passionate belief in people that
+                          inspires them to become prouder, stronger, and more
+                          valuable contributors in their organizations and
+                          society.
+                        </p>
+                      </div>
+                    </div>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
+                      <button
+                        type='button'
+                        className='button button-sm'
+                        data-dismiss='modal'
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* item 2 */}
+            <div className='col-sm-9 col-md-6 col-lg-4'>
+              <div className='item member member-1'>
+                <div className='item-hdr'>
+                  <div className='item-img member-img member-1'></div>
+                </div>
+                <div className='item-body'>
+                  <h6 className='item-title member-name'>Margaret Lidoro</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Co-founder
+                  </h6>
+                </div>
+                <div className='item-ftr'>
+                  <button
+                    className='button button-sm'
+                    type='button'
+                    data-toggle='modal'
+                    data-target='#Margaret-Lidoro-profile'
+                  >
+                    Read Profile
+                  </button>
+                </div>
+              </div>
+
+              {/* item 2 modal */}
+              <div
+                className='modal fade'
+                id='Margaret-Lidoro-profile'
+                data-backdrop='static'
+                data-keyboard='false'
+                tabindex='-1'
+                role='dialog'
+                aria-labelledby='staticBackdropLabel'
+                aria-hidden='true'>
+                <div className='modal-dialog modal-lg modal-dialog-centered'>
+                  <div className='modal-content'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
+                          <div className='item-img member-img member-1-img mb-4'></div>
+                          <h6 className='item-title member-name text-center'>
+                          Margaret Lidoro
+                          </h6>
+                          <h6 className='item-details member-position text-center mb-0'>
+                            Co-founder
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
+                      <div className='member-profile'>
+                        <p>
+                          She is equipped with a bachelor of law degree from university of Nairobi and a post graduate diploma in advocates training. She is interested in gaining experience as well as putting into practice the skills that she has gained so far in different aspects of humanitarian advocacy.
                         </p>
                         <p>
                           She holds a certificate course in psychology from Dima

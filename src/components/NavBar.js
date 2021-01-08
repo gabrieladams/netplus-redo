@@ -42,14 +42,19 @@ function NavBar() {
                 Partnership &amp; Collaboration
               </Link>
             </li> */}
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link className='nav-link' to='/donation'>
                 Donation
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link className='nav-link' to='/gallery'>
                 Gallery
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' to='/blog'>
+                Blog
               </Link>
             </li>
             <li className='nav-item'>

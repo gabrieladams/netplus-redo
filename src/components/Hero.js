@@ -18,7 +18,8 @@ function Hero() {
       'Partner with us'
     ) : route === '/donation' ? (
       'Make a donation'
-    ) : route === '/gallery' ? (
+    ) : route === '/blog' ? 'Our blogs'
+     : route === '/gallery' ? (
       'Gallery'
     ) : route === '/contact' ? (
       'Get in touch'

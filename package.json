@@ -1,5 +1,6 @@
 {
   "name": "netplus-redo",
+  "homepage": "http://www.netplus.co.ke",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

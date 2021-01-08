@@ -51,11 +51,14 @@ function Footer() {
                     </div>
 
                     <div className='d-flex flex-column pl-5'>
-                      <Link to='/donation' className='mb-12'>
+                      {/* <Link to='/donation' className='mb-12'>
                         Donation
-                      </Link>
+                      </Link> */}
                       <Link to='/gallery' className='mb-12'>
                         Gallery
+                      </Link>
+                      <Link to='/blogs' className='mb-12'>
+                        Blogs
                       </Link>
                       <Link to='/contact' className=''>
                         Conatct
