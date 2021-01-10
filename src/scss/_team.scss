@@ -52,25 +52,31 @@ section#team {
 
       &.member-2 {
         .member-img {
-          @include background(url(../assets/img/Wambida-profile.jpg));
-          background-position: top;
+          @include background(url(../assets/img/Margaret-Lidoro-profile.jpg));
         }
       }
 
       &.member-3 {
         .member-img {
-          @include background(url(../assets/img/Ayuma-profile.jpg));
+          @include background(url(../assets/img/Wambida-profile.jpg));
+          background-position: top;
         }
       }
 
       &.member-4 {
+        .member-img {
+          @include background(url(../assets/img/Ayuma-profile.jpg));
+        }
+      }
+
+      &.member-5 {
         .member-img {
           @include background(url(../assets/img/Jijo-profile.jpg));
           background-position: top;
         }
       }
 
-      &.member-5 {
+      &.member-6 {
         .member-img {
           @include background(url(../assets/img/Joan-profile.jpg));
         }
@@ -120,21 +126,26 @@ section#team {
       }
 
       .member-2-img {
+        @include background(url(../assets/img/Margaret-Lidoro-profile.jpg));
+        // background-position: top;
+      }
+
+      .member-3-img {
         @include background(url(../assets/img/Wambida-profile.jpg));
         background-position: top;
       }
 
-      .member-3-img {
+      .member-4-img {
         @include background(url(../assets/img/Ayuma-profile.jpg));
         background-position: top;
       }
 
-      .member-4-img {
+      .member-5-img {
         @include background(url(../assets/img/Jijo-profile.jpg));
         background-position: top;
       }
 
-      .member-5-img {
+      .member-6-img {
         @include background(url(../assets/img/Joan-profile.jpg));
         background-position: top;
       }

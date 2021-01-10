@@ -27,7 +27,7 @@ function App() {
         />
         <Route path='/donation' component={Donation} />
         <Route path='/gallery' component={Gallery} />
-        <Route path='/blog' component={Blog} />
+        <Route path='/blogs' component={Blog} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />

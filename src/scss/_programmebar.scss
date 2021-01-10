@@ -1,0 +1,15 @@
+.programme-bar {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: $neutral_color;
+  box-shadow: $box_shadow;
+  @include transition(box-shadow);
+
+  &:hover {
+    box-shadow: $box_shadow_hover;
+  }
+
+  h5 {
+    color: $hdr_color_dark;
+  }
+}
