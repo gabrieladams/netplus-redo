@@ -458,7 +458,7 @@ function Team() {
 
             {/* item 6 */}
             <div className='col-sm-9 col-md-6 col-lg-4'>
-              <div className='item member member-5'>
+              <div className='item member member-6'>
                 <div className='item-hdr'>
                   <div className='item-img member-img member-6-img'></div>
                 </div>
@@ -517,6 +517,76 @@ function Team() {
                           make it a better place, especially for the less
                           fortunate.
                         </p>
+                      </div>
+                    </div>
+                    <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>
+                      <button
+                        type='button'
+                        className='button button-sm'
+                        data-dismiss='modal'
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* item 7 */}
+            <div className='col-sm-9 col-md-6 col-lg-4'>
+              <div className='item member member-7'>
+                <div className='item-hdr'>
+                  <div className='item-img member-img member-7-img'></div>
+                </div>
+                <div className='item-body'>
+                  <h6 className='item-title member-name'>Mercy Waikumi</h6>
+                  <h6 className='item-details member-position mb-0'>
+                    Member
+                  </h6>
+                </div>
+                <div className='item-ftr'>
+                  <button
+                    className='button button-sm'
+                    type='button'
+                    data-toggle='modal'
+                    data-target='#Mercy-Waikumu-profile'
+                  >
+                    Read Profile
+                  </button>
+                </div>
+              </div>
+
+              {/* item 7 modal */}
+              <div
+                className='modal fade'
+                id='Mercy-Waikumu-profile'
+                data-backdrop='static'
+                data-keyboard='false'
+                tabindex='-1'
+                role='dialog'
+                aria-labelledby='staticBackdropLabel'
+                aria-hidden='true'
+              >
+                <div className='modal-dialog modal-lg modal-dialog-centered'>
+                  <div className='modal-content'>
+                    <div className='modal-header pt-4 px-3 px-sm-4 px-lg-5'>
+                      <div className='row justify-content-center mx-0'>
+                        <div className='col-6 col-md-4 px-0'>
+                          <div className='item-img member-img member-7-img mb-4'></div>
+                          <h6 className='item-title member-name text-center'>
+                          Mercy Waikumi
+                          </h6>
+                          <h6 className='item-details member-position text-center mb-0'>
+                            Member
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='modal-body px-3 px-sm-4 px-lg-5'>
+                      <div className='member-profile'>
+                        <p>The reason i joined Netplus was that I loved what it was about, providing opportunities to people who would otherwise not have them. It provided a platform to reach out to various kinds of people such as nurturing people's talents or providing to the less fortunate.</p> 
+                        <p className='mb-0'>My favourite hobby is traveling to different places.</p>
                       </div>
                     </div>
                     <div className='modal-footer justify-content-start pb-5 px-3 px-sm-4 px-lg-5'>

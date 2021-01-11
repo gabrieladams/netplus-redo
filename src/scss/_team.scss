@@ -81,6 +81,13 @@ section#team {
           @include background(url(../assets/img/Joan-profile.jpg));
         }
       }
+
+      &.member-7 {
+        .member-img {
+          @include background(url(../assets/img/Mercy-Waikimu-profile.jpg));
+          background-position: top;
+        }
+      }
     }
 
     .modal {
@@ -127,7 +134,6 @@ section#team {
 
       .member-2-img {
         @include background(url(../assets/img/Margaret-Lidoro-profile.jpg));
-        // background-position: top;
       }
 
       .member-3-img {
@@ -147,6 +153,11 @@ section#team {
 
       .member-6-img {
         @include background(url(../assets/img/Joan-profile.jpg));
+        background-position: top;
+      }
+
+      .member-7-img {
+        @include background(url(../assets/img/Mercy-Waikimu-profile.jpg));
         background-position: top;
       }
     }
