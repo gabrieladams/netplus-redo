@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24ecc71564777c33aca12eab831a035c",
+    "revision": "d5e506a5faca28a6dabc4a7fd31538f5",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "bdd260ca7cac659b0cff",
-    "url": "/static/css/main.3eed291b.chunk.css"
+    "revision": "cbf73b51eee34e68cdf4",
+    "url": "/static/css/main.6091092f.chunk.css"
   },
   {
     "revision": "f6ea29ece199fb93cf3a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4bf1d0df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdd260ca7cac659b0cff",
-    "url": "/static/js/main.065192e1.chunk.js"
+    "revision": "cbf73b51eee34e68cdf4",
+    "url": "/static/js/main.516d8fd2.chunk.js"
   },
   {
     "revision": "53fa833537a6955966b2",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c3f815a25c36b324d4466f7739936af9",
     "url": "/static/media/Margaret-Lidoro-profile.c3f815a2.jpg"
+  },
+  {
+    "revision": "a9f9b1ddcdd6aeefe7b0d8c1da6b0d9f",
+    "url": "/static/media/Mercy-Waikimu-profile.a9f9b1dd.jpg"
   },
   {
     "revision": "8b19bfa179f122294e7a6f0640626531",

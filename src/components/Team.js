@@ -10,7 +10,7 @@ function Team() {
               <h2 className='section-title'>Meet the team</h2>
               <p className='section-subtxt mb-0'>
                 We have a team of dedicated, passionate and talented people that
-                belive fully in the aspirations of the agency and put their
+                believe fully in the aspirations of the agency and put their
                 minds and efforts together to come up with transformational
                 ideas that better the community.
               </p>

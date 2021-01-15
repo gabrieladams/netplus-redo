@@ -63,7 +63,7 @@ function Hero() {
                     >
                       We are a team of young people passionate about
                       transformation of the lives of fellow young people by
-                      providing opportunities of growth.
+                      providing opportunities for growth.
                     </div>
                   </p>
                   <Link

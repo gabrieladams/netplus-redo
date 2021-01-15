@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import logo from '../assets/img/logo.jpg'
 
 function NavBar() {
   return (
     <nav className='navbar navbar-expand-lg navbar-light'>
       <div className='container'>
-        <Link className='navbar-brand' to='/'>
-          NETPLUS
+        <Link className='navbar-brand d-flex align-items-center' to='/'>
+          <div className='logo'></div>
+          <span>Netplus</span>
         </Link>
         <button
           className='navbar-toggler'

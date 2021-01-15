@@ -9,6 +9,13 @@ nav.navbar-light {
     color: $link_color;
     font-size: 18px;
     letter-spacing: 3px;
+    .logo-container {
+      width: 35px;
+      height: 35px;
+
+      @include background(url(../assets/img/logo.jpg));
+      background-size: contain;
+    }
   }
 
   ul.navbar-nav {
