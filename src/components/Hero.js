@@ -18,10 +18,11 @@ function Hero() {
       'Partner with us'
     ) : route === '/donation' ? (
       'Make a donation'
-    ) : route === '/blog' ? 'Our blogs'
+    ) : route === '/blogs' ? 'Our blogs'
      : route === '/gallery' ? (
       'Gallery'
-    ) : route === '/contact' ? (
+    ) : route === '/notices' ? 
+    'Notices' : route === '/contact' ? (
       'Get in touch'
     ) : (
       ''

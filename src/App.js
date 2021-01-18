@@ -11,6 +11,7 @@ import PartnershipCollaboration from './pages/PartnershipCollaboration';
 import Donation from './pages/Donation';
 import Gallery from './pages/Gallery';
 import Blog from './pages/Blog';
+import Notices from './pages/Notices';
 import Contact from './pages/Contact';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/donation' component={Donation} />
         <Route path='/gallery' component={Gallery} />
         <Route path='/blogs' component={Blog} />
+        <Route path='/notices' component={Notices} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />
