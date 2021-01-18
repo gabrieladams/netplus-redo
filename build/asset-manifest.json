@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.c63575e2.chunk.css",
-    "main.js": "/static/js/main.516d8fd2.chunk.js",
-    "main.js.map": "/static/js/main.516d8fd2.chunk.js.map",
+    "main.js": "/static/js/main.a22a82c5.chunk.js",
+    "main.js.map": "/static/js/main.a22a82c5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35a26a64.js",
     "runtime-main.js.map": "/static/js/runtime-main.35a26a64.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4bf1d0df.chunk.js": "/static/js/2.4bf1d0df.chunk.js",
-    "static/js/2.4bf1d0df.chunk.js.map": "/static/js/2.4bf1d0df.chunk.js.map",
+    "static/js/2.c841a26d.chunk.js": "/static/js/2.c841a26d.chunk.js",
+    "static/js/2.c841a26d.chunk.js.map": "/static/js/2.c841a26d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e205202019c28ecb474362948556920a.js": "/precache-manifest.e205202019c28ecb474362948556920a.js",
+    "precache-manifest.f011b17f544beb45fabbbe628d9e1026.js": "/precache-manifest.f011b17f544beb45fabbbe628d9e1026.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.c63575e2.chunk.css.map": "/static/css/main.c63575e2.chunk.css.map",
-    "static/js/2.4bf1d0df.chunk.js.LICENSE.txt": "/static/js/2.4bf1d0df.chunk.js.LICENSE.txt",
+    "static/js/2.c841a26d.chunk.js.LICENSE.txt": "/static/js/2.c841a26d.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/static/media/volunteers.c4c65a15.jpg",
     "static/media/Netplus-kenya-2021-calender-of-activities.pdf": "/static/media/Netplus-kenya-2021-calender-of-activities.8b19bfa1.pdf",
     "static/media/gallery-img-1.jpg": "/static/media/gallery-img-1.40bc9248.jpg",
@@ -30,13 +30,14 @@
     "static/media/gallery-img-6.jpg": "/static/media/gallery-img-6.acbf4f18.jpg",
     "static/media/gallery-img-7.jpg": "/static/media/gallery-img-7.77c1d9b4.jpg",
     "static/media/gallery-img-8.jpg": "/static/media/gallery-img-8.6c5cf3df.jpg",
-    "static/media/gallery-img-9.jpg": "/static/media/gallery-img-9.ae27d228.jpg"
+    "static/media/gallery-img-9.jpg": "/static/media/gallery-img-9.ae27d228.jpg",
+    "static/media/notice-img.jpg": "/static/media/notice-img.07b9f25b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.35a26a64.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4bf1d0df.chunk.js",
+    "static/js/2.c841a26d.chunk.js",
     "static/css/main.c63575e2.chunk.css",
-    "static/js/main.516d8fd2.chunk.js"
+    "static/js/main.a22a82c5.chunk.js"
   ]
 }
