@@ -6,7 +6,7 @@ function Notices() {
     return (
         <React.Fragment>
             <NoticeBorad />
-            <ProgrammeBar />
+            <ProgrammeBar route='notices' />
         </React.Fragment>
     )
 }

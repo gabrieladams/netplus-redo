@@ -9,7 +9,7 @@ import SuccessStories from '../components/SuccessStories';
 function Home() {
   return (
     <React.Fragment>
-      <ProgrammeBar />
+      <ProgrammeBar route='home' />
       <CoFounder />
       <WhatWeDo />
       <MotiveGallery />
