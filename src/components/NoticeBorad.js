@@ -1,11 +1,13 @@
 import React from 'react';
 import noticeImage from '../assets/img/notice-img.jpg';
+import noticeImage_2 from '../assets/img/notice-img-2.jpg';
+import noticeImage_3 from '../assets/img/notice-img-3.jpg';
 
 function NoticeBorad() {
     return (
         <section id='notice-board' className='section'>
             <div className="container">
-                <div className="notice">
+                <div className="notice" style={{marginBottom: '4.5rem'}}>
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="notice-img d-flex justify-content-center pb-4 pb-lg-0">
@@ -63,6 +65,22 @@ function NoticeBorad() {
                         </div>
                     </div>
                 </div>
+                <div className="notice">
+                    <div className="row justify-content-center">
+                        <div className="col-md-5">
+                            <div className="notice-img mb-5 mb-md-0">
+                                <img src={noticeImage_2} alt="Kawangware Mobile Therapy 2021" className='img-fluid'/>
+                            </div>
+                        </div>
+                        <div className="col-md-5 pl-md-4">
+                            <div className="notice-img">
+                                <img src={noticeImage_3} alt="Call For Finance Pillars" className='img-fluid'/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            
             </div>
     </section>
     )
