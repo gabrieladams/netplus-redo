@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62a4676959e267ffced01f7c30a31faa",
+    "revision": "b639edd07a736e48e24a74d8b754a7af",
     "url": "/index.html"
   },
   {
-    "revision": "0d3769758f7c0f43988e",
+    "revision": "141bfda0e0dbb8805ed9",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6a84acb949a22c29dcba",
+    "revision": "e58f5aa597772fdcda1f",
     "url": "/static/css/main.f9c008cd.chunk.css"
   },
   {
-    "revision": "0d3769758f7c0f43988e",
-    "url": "/static/js/2.c841a26d.chunk.js"
+    "revision": "141bfda0e0dbb8805ed9",
+    "url": "/static/js/2.e359677d.chunk.js"
   },
   {
     "revision": "618d9e067b5f7c0ee048a43ae1109b7d",
-    "url": "/static/js/2.c841a26d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e359677d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a84acb949a22c29dcba",
-    "url": "/static/js/main.37da6037.chunk.js"
+    "revision": "e58f5aa597772fdcda1f",
+    "url": "/static/js/main.2051949f.chunk.js"
   },
   {
     "revision": "53fa833537a6955966b2",
@@ -186,6 +186,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aad7bee90467c6e3688aeb6d8ddc9ae3",
     "url": "/static/media/mentorship-programmes.aad7bee9.jpg"
+  },
+  {
+    "revision": "3aa2b8e08dbfdc176bde3992dff5a2cc",
+    "url": "/static/media/notice-img-2.3aa2b8e0.jpg"
+  },
+  {
+    "revision": "59a7e7ea42600ad504db0bacfb6f0354",
+    "url": "/static/media/notice-img-3.59a7e7ea.jpg"
   },
   {
     "revision": "07b9f25b8bf15a830fa0e8f08f3f04f2",
