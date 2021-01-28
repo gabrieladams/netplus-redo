@@ -129,7 +129,7 @@ function NoticeBorad() {
 				</div>
 				<div className='notice'>
 					<div className='row justify-content-center'>
-						<div className='col-md-4'>
+						{/* <div className='col-md-4'>
 							<div className='notice-img mb-5 mb-md-0'>
 								<img
 									src={noticeImage_2}
@@ -137,8 +137,8 @@ function NoticeBorad() {
 									className='img-fluid'
 								/>
 							</div>
-						</div>
-						<div className='col-md-4 pl-md-4'>
+						</div> */}
+						<div className='col-md-5 pl-md-4'>
 							<div className='notice-img mb-5 mb-md-0'>
 								<img
 									src={noticeImage_3}
@@ -147,7 +147,7 @@ function NoticeBorad() {
 								/>
 							</div>
 						</div>
-						<div className='col-md-4 pl-md-4'>
+						<div className='col-md-5 pl-md-4'>
 							<div className='notice-img'>
 								<img
 									src={noticeImage_5}
